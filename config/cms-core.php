@@ -152,6 +152,7 @@ return [
         Czim\CmsAuth\Providers\Api\OAuthSetupServiceProvider::class,
         Czim\CmsCore\Providers\Api\CmsCoreApiServiceProvider::class,
 
+        // Module service providers
         Czim\CmsModels\Providers\CmsModelsServiceProvider::class,
         Czim\CmsTheme\Providers\CmsThemeServiceProvider::class,
 
@@ -304,6 +305,22 @@ return [
     */
 
     'log' => [
+
+        // Whether to write to a separate log file for the CMS.
+        // If this is set to false, the standard laravel log will be used.
+        'separate' => true,
+
+        // If using a separate log, the (path or) file to write to,
+        // relative to the storage/logs directory.
+        'file' => 'cms',
+
+        // Whether to split files over days, rather than use a single log file.
+        'daily' => true,
+
+        // If set, limits that amount of (daily) files kept as history by the logger.
+        'max_files' => null,
+
+        // Minimal log level to write log lines for
         'threshold' => Monolog\Logger::INFO,
     ],
 

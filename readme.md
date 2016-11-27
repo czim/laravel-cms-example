@@ -17,6 +17,8 @@ Application packages used
 
 ## Installation
 
+Besides the normal procedure for getting a laravel installation running (`composer install`, `php artisan migrate`), follow these additional steps:
+
 1. Run the CMS migrations:
 
 ```bash
