@@ -107,8 +107,32 @@ return [
 
     'analyzer' => [
 
-        'attributes' => [
+        'reference' => [
 
+            // Default attributes to look for when automatically picking a reference source for a model.
+            // The first attribute in this list that matches is used.
+            'sources' => [
+                'name',
+                'title',
+                'label',
+                'code',
+                'slug',
+                'last_name',
+                'surname',
+                'handle',
+            ],
+        ],
+
+        'attributes' => [
+        ],
+
+        'filters' => [
+
+            // Whether to create a single search-for-any string filter, instead of separate filters
+            'single-any-string' => true,
+
+            // The filter key to use for a combined any-string filter
+            'any-string-key' => 'any',
         ],
 
         'scopes' => [
@@ -200,11 +224,12 @@ return [
 
             // The default namespace to prefix for relative strategy class names
             'default-namespace' => 'Czim\\CmsModels\\View\\ReferenceStrategies\\',
-            'default-strategy'  => ReferenceStrategies\DefaultReference::class,
+            'default-strategy'  => ReferenceStrategies\IdAndAttribute::class,
 
             // Aliases for reference display strategy classes
             'aliases' => [
-                'default' => ReferenceStrategies\DefaultReference::class,
+                'default'          => ReferenceStrategies\DefaultReference::class,
+                'id-and-attribute' => ReferenceStrategies\IdAndAttribute::class,
             ],
         ],
 
@@ -376,6 +401,25 @@ return [
             'activate' => true,
         ],
 
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | WYSIWYG / CKEditor Configuration
+    |--------------------------------------------------------------------------
+    |
+    | The default behavior for the 'wysiwyg' form display strategy's
+    | use of CKEditor may be configured here.
+    |
+    */
+
+    'ckeditor' => [
+
+        // Base path for configuration files, relative to the public/ path.
+        'path' => '_cms/js/ckeditor',
+
+        // Default configuration file to use, relative to the base path
+        'config' => 'default.js',
     ],
 
 ];
