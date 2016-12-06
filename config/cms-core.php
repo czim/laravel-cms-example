@@ -30,12 +30,20 @@ return [
         // Leave null to use application default
         'default' => null,
 
+        // A list of locales available in the CMS.
         // Leave null to use localization package (or fallback locale) settings
         'available' => null,
 
         // If enabled, will set the locale based on the request (if not session-defined yet)
         'request-based' => true,
 
+        // The default locale to use for translating content.
+        // Leave null to use default CMS locale.
+        'translation-default' => null,
+
+        // A list of locales available for translating editable content (do not need to overlap with CMS locales).
+        // Leave null to use 'available' value.
+        'translation-locales' => null,
     ],
 
     /*
@@ -146,6 +154,7 @@ return [
         Czim\CmsCore\Providers\EventServiceProvider::class,
         Czim\CmsCore\Providers\MiddlewareServiceProvider::class,
         Czim\CmsCore\Providers\MigrationServiceProvider::class,
+        Czim\CmsCore\Providers\TranslationServiceProvider::class,
         Czim\CmsCore\Providers\ViewServiceProvider::class,
         Czim\CmsAuth\Providers\CmsAuthServiceProvider::class,
         Czim\CmsTheme\Providers\CmsThemeServiceProvider::class,
