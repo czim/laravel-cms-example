@@ -353,28 +353,29 @@
         },
         {
             "name": "czim/laravel-cms-core",
-            "version": "0.9.3",
+            "version": "0.9.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-core.git",
-                "reference": "79873e7fcb4dbf4531b219eeb581f7c0c1755934"
+                "reference": "3d11562116e516dc352307b4f7eb114b4d83a1c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-core/zipball/79873e7fcb4dbf4531b219eeb581f7c0c1755934",
-                "reference": "79873e7fcb4dbf4531b219eeb581f7c0c1755934",
+                "url": "https://api.github.com/repos/czim/laravel-cms-core/zipball/3d11562116e516dc352307b4f7eb114b4d83a1c0",
+                "reference": "3d11562116e516dc352307b4f7eb114b4d83a1c0",
                 "shasum": ""
             },
             "require": {
                 "czim/laravel-dataobject": "^1.0",
-                "laravel/framework": "5.2.*|5.1.*",
+                "laracasts/flash": "^2.0",
+                "laravel/framework": "5.2.*",
                 "league/fractal": "^0.13.0",
                 "myclabs/php-enum": "^1.4",
                 "php": ">=5.5.9"
             },
             "require-dev": {
                 "mockery/mockery": "0.9.*",
-                "orchestra/testbench": "~3.0",
+                "orchestra/testbench": "3.2.*",
                 "phpunit/phpunit": "4.*",
                 "scrutinizer/ocular": "~1.1"
             },
@@ -400,7 +401,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2016-08-14 10:45:41"
+            "time": "2016-12-09 22:56:21"
         },
         {
             "name": "czim/laravel-cms-models",
@@ -1054,6 +1055,49 @@
                 "tokenizer"
             ],
             "time": "2016-12-07 09:37:55"
+        },
+        {
+            "name": "laracasts/flash",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laracasts/flash.git",
+                "reference": "03eec812fd6ae948664ff51b4320785f6d15ee5d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laracasts/flash/zipball/03eec812fd6ae948664ff51b4320785f6d15ee5d",
+                "reference": "03eec812fd6ae948664ff51b4320785f6d15ee5d",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Laracasts\\Flash": "src/"
+                },
+                "files": [
+                    "src/Laracasts/Flash/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeffrey Way",
+                    "email": "jeffrey@laracasts.com"
+                }
+            ],
+            "description": "Easy flash notifications",
+            "time": "2016-07-11 20:46:02"
         },
         {
             "name": "laravel/framework",
