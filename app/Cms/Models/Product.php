@@ -2,6 +2,28 @@
 
 return [
 
+    'list' => [
+
+        'columns' => [
+            'id',
+            'model_name',
+            'title',
+            'brand' => \Czim\CmsModels\Support\Enums\ListDisplayStrategy::RELATION_REFERENCE,
+            'price',
+            'sale',
+        ],
+
+        'filters' => [
+            'special',
+            'sale',
+            'any' => [
+                'strategy'         => 'string-split',
+                'label_translated' => 'models.filter.anything-label',
+                'target'           => '*',
+            ],
+        ],
+    ],
+
     'form' => [
 
         'layout' => [
@@ -29,8 +51,21 @@ return [
                         'type' => 'fieldset',
                         'label' => 'Special Status',
                         'children' => [
-                            'special',
-                            'special_free',
+                            [
+                                'type' => 'group',
+                                'label' => 'Special',
+                                'label_for' => 'special',
+                                'columns' => [ 3, 2, 5 ],
+                                'children' => [
+                                    'special',
+                                    [
+                                        'type' => 'label',
+                                        'label' => 'Custom',
+                                        'label_for' => 'special_free',
+                                    ],
+                                    'special_free',
+                                ]
+                            ]
                         ],
                     ],
                 ],
