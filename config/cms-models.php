@@ -249,15 +249,16 @@ return [
 
             // Aliases for list display strategy classes
             'aliases' => [
-                Enums\ListDisplayStrategy::CHECK              => 'Check',
-                Enums\ListDisplayStrategy::CHECK_NULLABLE     => 'CheckNullable',
-                Enums\ListDisplayStrategy::DATE               => 'Date',
-                Enums\ListDisplayStrategy::TIME               => 'Time',
-                Enums\ListDisplayStrategy::DATETIME           => 'DateTime',
-                Enums\ListDisplayStrategy::STAPLER_THUMBNAIL  => 'StaplerImage',
-                Enums\ListDisplayStrategy::STAPLER_FILENAME   => 'StaplerFile',
-                Enums\ListDisplayStrategy::RELATION_COUNT     => 'RelationCount',
-                Enums\ListDisplayStrategy::RELATION_REFERENCE => 'RelationReference',
+                Enums\ListDisplayStrategy::CHECK               => 'Check',
+                Enums\ListDisplayStrategy::CHECK_NULLABLE      => 'CheckNullable',
+                Enums\ListDisplayStrategy::DATE                => 'Date',
+                Enums\ListDisplayStrategy::TIME                => 'Time',
+                Enums\ListDisplayStrategy::DATETIME            => 'DateTime',
+                Enums\ListDisplayStrategy::STAPLER_THUMBNAIL   => 'StaplerImage',
+                Enums\ListDisplayStrategy::STAPLER_FILENAME    => 'StaplerFile',
+                Enums\ListDisplayStrategy::RELATION_COUNT      => 'RelationCount',
+                Enums\ListDisplayStrategy::RELATION_REFERENCE  => 'RelationReference',
+                Enums\ListDisplayStrategy::RELATION_COUNT_LINK => 'RelationCountChildrenLink',
             ],
 
             // Aliases for sort strategy classes
@@ -301,9 +302,12 @@ return [
                 Enums\FormDisplayStrategy::WYSIWYG          => 'WysiwygStrategy',
                 Enums\FormDisplayStrategy::DROPDOWN         => 'DropdownStrategy',
 
+                Enums\FormDisplayStrategy::STATIC_FIELD     => 'StaticStrategy',
+
                 Enums\FormDisplayStrategy::DATEPICKER_DATETIME => 'DateTimeStrategy',
                 Enums\FormDisplayStrategy::DATEPICKER_DATE     => 'DateStrategy',
                 Enums\FormDisplayStrategy::DATEPICKER_TIME     => 'TimeStrategy',
+                Enums\FormDisplayStrategy::COLORPICKER         => 'ColorStrategy',
 
                 Enums\FormDisplayStrategy::ATTACHMENT_STAPLER_IMAGE => 'AttachmentStaplerImageStrategy',
                 Enums\FormDisplayStrategy::ATTACHMENT_STAPLER_FILE  => 'AttachmentStaplerFileStrategy',
@@ -329,6 +333,18 @@ return [
                 Enums\FormStoreStrategy::RELATION_SINGLE_MORPH  => 'RelationSingleMorph',
             ],
 
+        ],
+
+        'show' => [
+
+            // The default namespace to prefix for relative strategy class names
+            'default-namespace' => 'Czim\\CmsModels\\View\\ListStrategies\\',
+            'default-strategy'  => ListStrategies\DefaultStrategy::class,
+
+            // Aliases for show field display strategy classes
+            // If no match is found, falls back to list.aliases
+            'aliases' => [
+            ],
         ],
 
         'delete' => [
@@ -382,6 +398,7 @@ return [
         'index'  => 'cms-models::model.index',
         'create' => 'cms-models::model.edit',
         'edit'   => 'cms-models::model.edit',
+        'show'   => 'cms-models::model.show',
     ],
 
     /*
