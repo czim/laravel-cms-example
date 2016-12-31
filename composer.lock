@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3837c89fa95dcbf291e748ac4410a1e4",
-    "content-hash": "d94ff1d64e9e0ae3fb7a98262d1f18f3",
+    "hash": "4741ea606049d668b749dacd160cfab4",
+    "content-hash": "296824d2eabcb35be579e333bb3943be",
     "packages": [
         {
             "name": "cartalyst/sentinel",
@@ -302,6 +302,46 @@
                 "upload"
             ],
             "time": "2016-01-30 21:39:33"
+        },
+        {
+            "name": "czim/laravel-cms-acl-module",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/czim/laravel-cms-acl-module.git",
+                "reference": "85691eabb8f10e11819b1ebaea36566795ea32a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/czim/laravel-cms-acl-module/zipball/85691eabb8f10e11819b1ebaea36566795ea32a4",
+                "reference": "85691eabb8f10e11819b1ebaea36566795ea32a4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "czim/laravel-cms-core": "~1.3",
+                "mockery/mockery": "0.9.*",
+                "orchestra/testbench": "~3.0",
+                "phpunit/phpunit": "4.*",
+                "scrutinizer/ocular": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Czim\\CmsAclModule\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Laravel CMS: ACL Module",
+            "homepage": "https://github.com/czim",
+            "keywords": [
+                "acl",
+                "cms",
+                "laravel"
+            ],
+            "time": "2016-12-18 10:51:23"
         },
         {
             "name": "czim/laravel-cms-auth",
@@ -4587,7 +4627,8 @@
         "czim/laravel-cms-core": 20,
         "czim/laravel-cms-auth": 20,
         "czim/laravel-cms-models": 20,
-        "czim/laravel-cms-theme": 20
+        "czim/laravel-cms-theme": 20,
+        "czim/laravel-cms-acl-module": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
