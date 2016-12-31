@@ -18,6 +18,7 @@ return [
     */
 
     'modules' => [
+        Czim\CmsAclModule\AclModule::class,
         Czim\CmsModels\Modules\ModelModuleGenerator::class,
     ],
 

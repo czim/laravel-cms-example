@@ -162,6 +162,7 @@ return [
         Czim\CmsCore\Providers\Api\CmsCoreApiServiceProvider::class,
 
         // Module service providers
+        Czim\CmsAclModule\Providers\CmsAclModuleServiceProvider::class,
         Czim\CmsModels\Providers\CmsModelsServiceProvider::class,
         Czim\CmsTheme\Providers\CmsThemeServiceProvider::class,
 
