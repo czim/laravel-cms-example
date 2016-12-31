@@ -409,12 +409,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-models.git",
-                "reference": "45add6f9a7d88de72732ef0cc60d0d10ff5b60b1"
+                "reference": "9477f91d0b9998c9577c7c32931b8429653fea65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-models/zipball/45add6f9a7d88de72732ef0cc60d0d10ff5b60b1",
-                "reference": "45add6f9a7d88de72732ef0cc60d0d10ff5b60b1",
+                "url": "https://api.github.com/repos/czim/laravel-cms-models/zipball/9477f91d0b9998c9577c7c32931b8429653fea65",
+                "reference": "9477f91d0b9998c9577c7c32931b8429653fea65",
                 "shasum": ""
             },
             "require": {
@@ -445,7 +445,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2016-12-28 22:05:23"
+            "time": "2016-12-31 22:35:35"
         },
         {
             "name": "czim/laravel-cms-theme",
@@ -2267,23 +2267,24 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.4",
+            "version": "v5.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "545ce9136690cea74f98f86fbb9c92dd9ab1a756"
+                "reference": "cd142238a339459b10da3d8234220963f392540c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/545ce9136690cea74f98f86fbb9c92dd9ab1a756",
-                "reference": "545ce9136690cea74f98f86fbb9c92dd9ab1a756",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/cd142238a339459b10da3d8234220963f392540c",
+                "reference": "cd142238a339459b10da3d8234220963f392540c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "mockery/mockery": "~0.9.1"
+                "mockery/mockery": "~0.9.1",
+                "symfony/phpunit-bridge": "~3.2"
             },
             "type": "library",
             "extra": {
@@ -2316,7 +2317,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2016-11-24 01:01:23"
+            "time": "2016-12-29 10:02:40"
         },
         {
             "name": "symfony/console",
