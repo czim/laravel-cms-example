@@ -9,6 +9,12 @@ return [
             'model_name',
             'title',
             'brand' => \Czim\CmsModels\Support\Enums\ListDisplayStrategy::RELATION_REFERENCE,
+            'variants' => [
+                'strategy' => 'relation-count-link',
+                'options'  => [
+                    'relation' => 'product',
+                ]
+            ],
             'price',
             'sale',
         ],
@@ -23,8 +29,20 @@ return [
             ],
         ],
 
+        'default_action' => [
+            [
+                'strategy'    => \Czim\CmsModels\Support\Enums\ActionReferenceType::EDIT,
+                'permissions' => 'models.app-models-product.edit',
+            ],
+            [
+                'strategy'    => \Czim\CmsModels\Support\Enums\ActionReferenceType::SHOW,
+                'permissions' => 'models.app-models-product.show',
+            ],
+        ],
+
         'parents' => [
             'categories',
+            'brand',
         ],
     ],
 
