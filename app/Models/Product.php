@@ -47,4 +47,10 @@ class Product extends Model
         return $this->belongsToMany(Category::class)
             ->orderBy('position');
     }
+
+    public function variants()
+    {
+        return $this->hasMany(Variant::class);
+    }
+
 }

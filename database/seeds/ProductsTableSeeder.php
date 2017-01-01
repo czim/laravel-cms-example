@@ -19,14 +19,20 @@ class ProductsTableSeeder extends AbstractTableSeeder
 
         foreach (\App\Models\Product::all() as $product) {
 
-            factory(\App\Models\Variant::class)
+            /** @var \App\Models\Variant $variants */
+            $variants = factory(\App\Models\Variant::class)
                 ->times(rand(1,3))
-                ->make()
-                ->each(function (\App\Models\Variant $variant) use ($product) {
+                ->make();
+
+            if ($variants instanceof \App\Models\Variant) {
+                $variants->product()->associate($product);
+                $variants->save();
+            } else {
+                foreach ($variants as $variant) {
                     $variant->product()->associate($product);
                     $variant->save();
-                });
-
+                }
+            }
 
             $ids = \App\Models\Category::inRandomOrder()->take(rand(1,2))->pluck('id')->toArray();
 
