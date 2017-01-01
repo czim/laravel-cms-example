@@ -6,8 +6,9 @@ CMS packages installed
 
 - [Laravel CMS Core](https://github.com/czim/laravel-cms-core)
 - [Laravel CMS Auth](https://github.com/czim/laravel-cms-auth)
-- [Laravel CMS Models Module](https://github.com/czim/laravel-cms-models)
 - [Laravel CMS Theme](https://github.com/czim/laravel-cms-theme)
+- [Laravel CMS ACL Module](https://github.com/czim/laravel-cms-acl-module)
+- [Laravel CMS Models Module](https://github.com/czim/laravel-cms-models)
 
 
 Application packages used
@@ -17,19 +18,31 @@ Application packages used
 
 ## Installation
 
-Besides the normal procedure for getting a laravel installation running (`composer install`, `php artisan migrate`), follow these additional steps:
+Besides the normal procedure for getting a laravel installation running (`composer install`), follow these additional steps:
 
 1. Run the CMS migrations:
 
-```bash
-php artisan cms:migrate
-```
+    ```bash
+    php artisan cms:migrate
+    ```
 
-2. Create an admin user account:
+2. Run the database seeder:
 
-```bash
-php artisan cms:user:create <name> <password> --admin
-```
+    ```bash
+    php artisan db:seed
+    ```
+    
+    Three user accounts will be ready to use:
+    
+    - A super-admin: `super@admin.com`, password: `'secret'`.
+    - A user with editing, but not delete permissions: `some@editor.com`, password: `'secret'`.
+    - A guest user with only viewing permissions: `some@guest.com`, password: `'secret'`.
+
+3. Optionally, create a custom super-admin account:
+
+    ```bash
+    php artisan cms:user:create <name> <password> --admin
+    ```
 
 ## Application
 
