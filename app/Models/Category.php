@@ -12,6 +12,7 @@ class Category extends Model
 
     protected $fillable = [
         'slug',
+        'name',
         'position',
     ];
 
@@ -24,4 +25,5 @@ class Category extends Model
     {
         return $this->belongsToMany(Product::class);
     }
+
 }

@@ -22,6 +22,10 @@ return [
                 'target'           => '*',
             ],
         ],
+
+        'parents' => [
+            'categories',
+        ],
     ],
 
     'form' => [
