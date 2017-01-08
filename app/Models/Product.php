@@ -45,7 +45,7 @@ class Product extends Model
     public function categories()
     {
         return $this->belongsToMany(Category::class)
-            ->orderBy('position');
+            ->orderBy('category_product.position');
     }
 
     public function variants()

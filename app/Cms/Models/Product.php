@@ -59,6 +59,7 @@ return [
                         'children' => [
                             'model_name',
                             'brand',
+                            'categories',
                         ],
                     ],
                     'set-price' => [
@@ -106,6 +107,7 @@ return [
         'fields' => [
             'model_name',
             'brand',
+            'categories',
             'price',
             'sale',
             'special',
