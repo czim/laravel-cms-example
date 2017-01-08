@@ -449,12 +449,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-models.git",
-                "reference": "0437e0d54e03367076cc214db5f98dc0aa5f1f8c"
+                "reference": "814ffb23f4558b98690070ba8a16c3990d1e90b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-models/zipball/0437e0d54e03367076cc214db5f98dc0aa5f1f8c",
-                "reference": "0437e0d54e03367076cc214db5f98dc0aa5f1f8c",
+                "url": "https://api.github.com/repos/czim/laravel-cms-models/zipball/814ffb23f4558b98690070ba8a16c3990d1e90b8",
+                "reference": "814ffb23f4558b98690070ba8a16c3990d1e90b8",
                 "shasum": ""
             },
             "require": {
@@ -485,7 +485,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2017-01-01 16:58:15"
+            "time": "2017-01-08 17:41:08"
         },
         {
             "name": "czim/laravel-cms-theme",
@@ -493,12 +493,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-theme.git",
-                "reference": "ed4600d74b487c565106c63dad406fe2446559a5"
+                "reference": "8e847895c87adfe45fa1d4b1dc72431c17edffa2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-theme/zipball/ed4600d74b487c565106c63dad406fe2446559a5",
-                "reference": "ed4600d74b487c565106c63dad406fe2446559a5",
+                "url": "https://api.github.com/repos/czim/laravel-cms-theme/zipball/8e847895c87adfe45fa1d4b1dc72431c17edffa2",
+                "reference": "8e847895c87adfe45fa1d4b1dc72431c17edffa2",
                 "shasum": ""
             },
             "require": {
@@ -529,7 +529,7 @@
                 "theme",
                 "view"
             ],
-            "time": "2017-01-01 11:36:05"
+            "time": "2017-01-08 18:13:38"
         },
         {
             "name": "czim/laravel-dataobject",
@@ -1141,16 +1141,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.3.28",
+            "version": "v5.3.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "a64fc4f8958091ca39623b2e8c8f173cb34fa47a"
+                "reference": "6fd76dec90466dc3f703d8df72e38130f2ee6a32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/a64fc4f8958091ca39623b2e8c8f173cb34fa47a",
-                "reference": "a64fc4f8958091ca39623b2e8c8f173cb34fa47a",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/6fd76dec90466dc3f703d8df72e38130f2ee6a32",
+                "reference": "6fd76dec90466dc3f703d8df72e38130f2ee6a32",
                 "shasum": ""
             },
             "require": {
@@ -1167,7 +1167,7 @@
                 "php": ">=5.6.4",
                 "psy/psysh": "0.7.*|0.8.*",
                 "ramsey/uuid": "~3.0",
-                "swiftmailer/swiftmailer": "~5.1",
+                "swiftmailer/swiftmailer": "~5.4",
                 "symfony/console": "3.1.*",
                 "symfony/debug": "3.1.*",
                 "symfony/finder": "3.1.*",
@@ -1265,7 +1265,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-12-15 18:03:17"
+            "time": "2017-01-06 14:33:56"
         },
         {
             "name": "league/event",
