@@ -3,6 +3,8 @@
 use Czim\CmsModels\Support\Enums;
 use Czim\CmsModels\Http\Controllers\FormFieldStrategies as FormFieldStoreStrategies;
 use Czim\CmsModels\Repositories\SortStrategies;
+use Czim\CmsModels\Support\Exporting\Strategies as ExportStrategies;
+use Czim\CmsModels\Support\Exporting\ColumnStrategies as ExportColumnStrategies;
 use Czim\CmsModels\View\ActionStrategies;
 use Czim\CmsModels\View\FilterStrategies;
 use Czim\CmsModels\View\FormFieldStrategies;
@@ -152,6 +154,9 @@ return [
                 'name',
                 'listifyScope',
                 'inList',
+                // taggable
+                'withAllTags',
+                'withAnyTag',
             ],
         ],
 
@@ -263,6 +268,7 @@ return [
                 Enums\ListDisplayStrategy::RELATION_COUNT      => 'RelationCount',
                 Enums\ListDisplayStrategy::RELATION_REFERENCE  => 'RelationReference',
                 Enums\ListDisplayStrategy::RELATION_COUNT_LINK => 'RelationCountChildrenLink',
+                Enums\ListDisplayStrategy::TAGS                => 'TagList',
             ],
 
             // Aliases for sort strategy classes
@@ -319,6 +325,8 @@ return [
                 Enums\FormDisplayStrategy::DATEPICKER_TIME     => 'TimeStrategy',
                 Enums\FormDisplayStrategy::DATEPICKER_RANGE    => 'DateRangeStrategy',
                 Enums\FormDisplayStrategy::COLORPICKER         => 'ColorStrategy',
+                Enums\FormDisplayStrategy::LOCATIONPICKER      => 'LocationStrategy',
+                Enums\FormDisplayStrategy::TAGGABLE            => 'TaggableAutocompleteStrategy',
 
                 Enums\FormDisplayStrategy::ATTACHMENT_STAPLER_IMAGE => 'AttachmentStaplerImageStrategy',
                 Enums\FormDisplayStrategy::ATTACHMENT_STAPLER_FILE  => 'AttachmentStaplerFileStrategy',
@@ -338,7 +346,9 @@ return [
                 Enums\FormStoreStrategy::BOOLEAN                => 'BooleanStrategy',
                 Enums\FormStoreStrategy::DATE                   => 'DateStrategy',
                 Enums\FormStoreStrategy::DATE_RANGE             => 'DateRangeStrategy',
+                Enums\FormStoreStrategy::LOCATION_FIELDS        => 'LocationFieldsStrategy',
                 Enums\FormStoreStrategy::STAPLER                => 'StaplerStrategy',
+                Enums\FormStoreStrategy::TAGGABLE               => 'TaggableStrategy',
                 Enums\FormStoreStrategy::RELATION_SINGLE_KEY    => 'RelationSingleKey',
                 Enums\FormStoreStrategy::RELATION_PLURAL_KEYS   => 'RelationPluralKeys',
                 Enums\FormStoreStrategy::RELATION_PIVOT_ORDERED => 'RelationPivotOrdered',
@@ -373,6 +383,27 @@ return [
 
             // Aliases for delete condition strategy classes
             'condition-aliases' => [
+            ],
+        ],
+
+        'export' => [
+
+            // The default namespace to prefix for relative strategy class names
+            'default-namespace' => 'Czim\\CmsModels\\Support\\Exporting\\Strategies\\',
+
+            // The default namespace to prefix for relative strategy class names
+            'default-column-namespace' => 'Czim\\CmsModels\\Support\\Exporting\\ColumnStrategies\\',
+            'default-column-strategy'  => ExportColumnStrategies\DefaultStrategy::class,
+
+            // Aliases for exporter strategy classes
+            'aliases' => [
+                Enums\ExportStrategy::CSV   => ExportStrategies\CsvExportStrategy::class,
+                //Enums\ExportStrategy::EXCEL => ExportStrategies\ExcelExportStrategy::class,
+                //Enums\ExportStrategy::XML   => ExportStrategies\XmlExportStrategy::class,
+            ],
+
+            // Aliases for export column strategy classes
+            'column-aliases' => [
             ],
         ],
 
@@ -449,6 +480,41 @@ return [
 
         // Default configuration file to use, relative to the base path
         'config' => 'default.js',
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | API Keys
+    |--------------------------------------------------------------------------
+    |
+    | Third party service API keys.
+    |
+    */
+
+    'api-keys' => [
+
+        'google-maps' => env('GOOGLE_MAPS_API_KEY'),
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Custom Strategy Settings
+    |--------------------------------------------------------------------------
+    |
+    | Settings for custom form, list and other strategies.
+    |
+    */
+
+    'custom-strategies' => [
+
+        'location' => [
+            'default' => [
+                'location'  => '2312 HZ Leiden, Netherlands',
+                'latitude'  => 52.1601144,
+                'longitude' => 4.497009700000035,
+            ]
+        ],
+
     ],
 
 ];
