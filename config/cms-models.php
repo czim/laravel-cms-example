@@ -404,6 +404,9 @@ return [
 
             // Aliases for export column strategy classes
             'column-aliases' => [
+                Enums\ExportColumnStrategy::BOOLEAN_STRING    => 'BooleanStringStrategy',
+                Enums\ExportColumnStrategy::STAPLER_FILE_LINK => 'StaplerFileLinkStrategy',
+                Enums\ExportColumnStrategy::TAG_LIST          => 'TagListStrategy',
             ],
         ],
 
