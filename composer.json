@@ -15,7 +15,8 @@
         "dimsav/laravel-translatable": "^6.0",
         "codesleeve/laravel-stapler": "^1.0",
         "czim/laravel-listify": "^1.0",
-        "predis/predis": "^1.1"
+        "predis/predis": "^1.1",
+        "rtconner/laravel-tagging": "^2.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
