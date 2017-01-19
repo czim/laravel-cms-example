@@ -72,4 +72,25 @@ $factory->define(App\Models\Variant::class, function (Faker\Generator $faker) {
     ];
 });
 
+// ------------------------------------------------------------------------------
+//      Special
+// ------------------------------------------------------------------------------
 
+$factory->define(App\Models\Example::class, function (Faker\Generator $faker) {
+    return [
+        'string'       => $faker->sentence,
+        'short_string' => $faker->randomAscii . $faker->randomAscii . $faker->randomAscii . $faker->randomAscii,
+        'text'         => implode("\n", $faker->paragraphs(rand(2, 4))),
+        'richtext'     => '<h2>' . $faker->sentence . '</h2><p>' . $faker->paragraph . '</p>',
+        'boolean'      => $faker->boolean,
+        'integer'      => $faker->numberBetween(0, 1000),
+        'decimal'      => $faker->randomFloat(2, 0, 999),
+        'enum'         => $faker->randomElement([ 'alpha', 'beta', 'gamma', 'omega', null ]),
+        'date'         => $faker->date(),
+        'datetime'     => $faker->dateTime,
+        'color'        => $faker->hexColor,
+        'location'     => $faker->country . ', ' . $faker->city,
+        'latitude'     => $faker->latitude,
+        'longitude'    => $faker->longitude,
+    ];
+});
