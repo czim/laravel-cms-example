@@ -98,9 +98,11 @@ return [
 	*/
 
 	'attributes' => [
-        'email'    => 'e-mail',
-        'password' => 'wachtwoord',
-        'name'     => 'naam',
+        'email'      => 'e-mail',
+        'password'   => 'wachtwoord',
+        'name'       => 'naam',
+        'first_name' => 'voornaam',
+        'last_name'  => 'achternaam',
     ],
 
 ];

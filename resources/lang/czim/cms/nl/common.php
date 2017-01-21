@@ -2,7 +2,9 @@
 
 return [
 
-    'home' => 'home',
+    'admin'  => 'admin',
+    'home'   => 'home',
+    'search' => 'zoeken',
 
     'action' => [
         'close'   => 'sluiten',
@@ -10,6 +12,7 @@ return [
         'create'  => 'aanmaken',
         'delete'  => 'verwijderen',
         'edit'    => 'bewerken',
+        'view'    => 'bekijken',
         'save'    => 'opslaan',
         'confirm' => 'bevestigen',
     ],
@@ -20,6 +23,12 @@ return [
         'cancel'         => 'annuleren',
         'add'            => 'toevoegen',
         'remove'         => 'verwijderen',
+    ],
+
+    'attributes' => [
+        'id'         => 'id',
+        'created-at' => 'gemaakt',
+        'updated-at' => 'bijgewerkt',
     ],
 
     'cannot-undo' => 'Dit kan niet ongedaan worden gemaakt.',

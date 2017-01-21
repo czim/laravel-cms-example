@@ -2,7 +2,9 @@
 
 return [
 
-    'home' => 'home',
+    'admin'  => 'admin',
+    'home'   => 'home',
+    'search' => 'search',
 
     'action' => [
         'close'   => 'close',
@@ -10,6 +12,7 @@ return [
         'create'  => 'create',
         'delete'  => 'delete',
         'edit'    => 'edit',
+        'view'    => 'view',
         'save'    => 'save',
         'confirm' => 'confirm',
     ],
@@ -20,6 +23,12 @@ return [
         'cancel'         => 'cancel',
         'add'            => 'add',
         'remove'         => 'remove',
+    ],
+
+    'attributes' => [
+        'id'         => 'id',
+        'created-at' => 'created at',
+        'updated-at' => 'updated at',
     ],
 
     'cannot-undo' => 'This action cannot be undone.',

@@ -5,7 +5,8 @@ return [
     'no-records-found' => 'Geen :name gevonden.',
 
     'button' => [
-        'new-record' => 'Voeg :name toe',
+        'new-record'    => 'Voeg :name toe',
+        'delete-record' => 'Verwijder :name',
     ],
 
     'pagination' => [
@@ -13,8 +14,9 @@ return [
     ],
 
 	'filter' => [
-	    'title'        => 'Filter:',
-	    'button-label' => 'Filter',
+	    'title'          => 'Filter:',
+	    'button-label'   => 'Filter',
+        'anything-label' => 'Elk veld',
     ],
 
     'scope' => [
@@ -50,6 +52,17 @@ return [
         'insert-at-position'       => 'invoegen op plaats',
     ],
 
+    'list-parents' => [
+        'back-to'                     => 'Terug naar',
+        'back-to-all-models'          => 'Terug naar alle :models',
+        'back-to-top-models'          => 'Terug naar top-niveau :models',
+        'all-models'                  => 'Alle :models',
+        'top-models'                  => 'Top-niveau :models',
+        'children-for-parent-with-id' => ':children van :parent :id',
+        'children-list-link'          => 'lijst met :children (:count)',
+        'models'                      => 'records',
+    ],
+
     'upload' => [
         'browse'           => 'selecteer',
         'remove'           => 'verwijder huidige selectie',
@@ -74,6 +87,20 @@ return [
         'success-message-activate'   => ':record geactiveerd.',
         'success-message-deactivate' => ':record gedeactiveerd.',
         'general-error'              => 'Er ging iets mis bij het opslaan. Probeer het nog eens.',
+    ],
+
+    'export' => [
+        'buttons-title' => 'Exporteer dit overzicht:',
+    ],
+
+    'location' => [
+        'type-location'  => 'Type locatie',
+        'pick-location'  => 'Kies locatie',
+        'drag-location'  => 'Sleep de pin om een locatie te kiezen',
+        'lat-long-label' => 'Breedte- / lengtegraad',
+        'location'       => 'locatie',
+        'latitude'       => 'breedtegraad',
+        'longitude'      => 'lengtegraad',
     ],
 
 ];

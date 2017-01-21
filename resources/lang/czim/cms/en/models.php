@@ -6,6 +6,7 @@ return [
 
     'button' => [
         'new-record' => 'New :name',
+        'delete-record' => 'Delete :name',
     ],
 
     'pagination' => [
@@ -13,8 +14,9 @@ return [
     ],
 
 	'filter' => [
-	    'title'        => 'Filter:',
-	    'button-label' => 'Filter',
+	    'title'          => 'Filter:',
+	    'button-label'   => 'Filter',
+        'anything-label' => 'Any',
     ],
 
     'scope' => [
@@ -50,6 +52,17 @@ return [
         'insert-at-position'       => 'insert at position',
     ],
 
+    'list-parents' => [
+        'back-to'                     => 'Back to',
+        'back-to-all-models'          => 'Back to all :models',
+        'back-to-top-models'          => 'Back to top :models',
+        'all-models'                  => 'All :models',
+        'top-models'                  => 'Top :models',
+        'children-for-parent-with-id' => ':children for :parent :id',
+        'children-list-link'          => 'list of :children (:count)',
+        'models'                      => 'records',
+    ],
+
     'upload' => [
         'browse'           => 'browse',
         'remove'           => 'clear the current upload',
@@ -76,4 +89,17 @@ return [
         'general-error'              => 'Error saving model. Please try again.',
     ],
 
+    'export' => [
+        'buttons-title' => 'Export this listing:',
+    ],
+
+    'location' => [
+        'type-location'  => 'Type a location',
+        'pick-location'  => 'Pick a location',
+        'drag-location'  => 'Drag the marker to pick a location',
+        'lat-long-label' => 'Latitude / longitude',
+        'location'       => 'location',
+        'latitude'       => 'latitude',
+        'longitude'      => 'longitude',
+    ],
 ];

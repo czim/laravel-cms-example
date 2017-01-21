@@ -5,6 +5,7 @@ return [
     'permission'  => 'recht',
     'permissions' => 'rechten',
 
+    'ungrouped-permissions' => 'Overige',
 
     'users' => [
         'single' => 'gebruiker',
