@@ -66,7 +66,7 @@ return [
         'name-prefix' => 'cms::',
 
         // The default view that should be loaded for logged in users
-        'default' => Czim\CmsCore\Http\Controllers\DefaultController::class . '@index',
+        'default' => App\Cms\Modules\Dashboard\DashboardWebController::class . '@index',
     ],
 
     /*

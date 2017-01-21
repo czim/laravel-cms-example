@@ -18,6 +18,7 @@ return [
     */
 
     'modules' => [
+        App\Cms\Modules\Dashboard\CustomDashboardModule::class,
         Czim\CmsAclModule\AclModule::class,
         Czim\CmsModels\Modules\ModelModuleGenerator::class,
     ],
