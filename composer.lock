@@ -309,12 +309,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-acl-module.git",
-                "reference": "85691eabb8f10e11819b1ebaea36566795ea32a4"
+                "reference": "343e2f069eae6ea840083c8a845cc49e843eb654"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-acl-module/zipball/85691eabb8f10e11819b1ebaea36566795ea32a4",
-                "reference": "85691eabb8f10e11819b1ebaea36566795ea32a4",
+                "url": "https://api.github.com/repos/czim/laravel-cms-acl-module/zipball/343e2f069eae6ea840083c8a845cc49e843eb654",
+                "reference": "343e2f069eae6ea840083c8a845cc49e843eb654",
                 "shasum": ""
             },
             "require": {
@@ -341,7 +341,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2016-12-18 10:51:23"
+            "time": "2017-01-21 15:47:18"
         },
         {
             "name": "czim/laravel-cms-auth",
@@ -449,12 +449,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-models.git",
-                "reference": "4703be61da0ee7abb91de27e8a0cd18d1363879b"
+                "reference": "3e77878676d3ce093e04f6f2b3d33119be280562"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-models/zipball/4703be61da0ee7abb91de27e8a0cd18d1363879b",
-                "reference": "4703be61da0ee7abb91de27e8a0cd18d1363879b",
+                "url": "https://api.github.com/repos/czim/laravel-cms-models/zipball/3e77878676d3ce093e04f6f2b3d33119be280562",
+                "reference": "3e77878676d3ce093e04f6f2b3d33119be280562",
                 "shasum": ""
             },
             "require": {
@@ -485,7 +485,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2017-01-21 14:21:29"
+            "time": "2017-01-21 14:53:06"
         },
         {
             "name": "czim/laravel-cms-theme",
