@@ -449,12 +449,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-models.git",
-                "reference": "36494517cc8af785ddaf49dc6da00fa6d2d9f1a8"
+                "reference": "4703be61da0ee7abb91de27e8a0cd18d1363879b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-models/zipball/36494517cc8af785ddaf49dc6da00fa6d2d9f1a8",
-                "reference": "36494517cc8af785ddaf49dc6da00fa6d2d9f1a8",
+                "url": "https://api.github.com/repos/czim/laravel-cms-models/zipball/4703be61da0ee7abb91de27e8a0cd18d1363879b",
+                "reference": "4703be61da0ee7abb91de27e8a0cd18d1363879b",
                 "shasum": ""
             },
             "require": {
@@ -485,7 +485,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2017-01-21 14:12:53"
+            "time": "2017-01-21 14:21:29"
         },
         {
             "name": "czim/laravel-cms-theme",
@@ -493,12 +493,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-theme.git",
-                "reference": "503223dfef6e48d40f802eb2b368ce562f7182ae"
+                "reference": "edeb04d6afb762c88690b09740d89f45ba242ab3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-theme/zipball/503223dfef6e48d40f802eb2b368ce562f7182ae",
-                "reference": "503223dfef6e48d40f802eb2b368ce562f7182ae",
+                "url": "https://api.github.com/repos/czim/laravel-cms-theme/zipball/edeb04d6afb762c88690b09740d89f45ba242ab3",
+                "reference": "edeb04d6afb762c88690b09740d89f45ba242ab3",
                 "shasum": ""
             },
             "require": {
@@ -529,7 +529,7 @@
                 "theme",
                 "view"
             ],
-            "time": "2017-01-21 14:14:29"
+            "time": "2017-01-21 14:20:54"
         },
         {
             "name": "czim/laravel-dataobject",
