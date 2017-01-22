@@ -493,12 +493,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-theme.git",
-                "reference": "ed1d490f9dd79f054cdd449152d51499e15e4f15"
+                "reference": "2eb9317766d451af4d436f28d9e42dd90db1510c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-theme/zipball/ed1d490f9dd79f054cdd449152d51499e15e4f15",
-                "reference": "ed1d490f9dd79f054cdd449152d51499e15e4f15",
+                "url": "https://api.github.com/repos/czim/laravel-cms-theme/zipball/2eb9317766d451af4d436f28d9e42dd90db1510c",
+                "reference": "2eb9317766d451af4d436f28d9e42dd90db1510c",
                 "shasum": ""
             },
             "require": {
@@ -529,7 +529,7 @@
                 "theme",
                 "view"
             ],
-            "time": "2017-01-21 22:31:22"
+            "time": "2017-01-22 13:56:42"
         },
         {
             "name": "czim/laravel-dataobject",
