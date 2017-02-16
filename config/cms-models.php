@@ -58,6 +58,23 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Defaults
+    |--------------------------------------------------------------------------
+    |
+    | Some defaults that the CMS will fall back to if no specific
+    | value is set in a model configuration.
+    |
+    */
+
+    'defaults' => [
+
+        // Whether to ask a user to provide extra confirmation before deleting models.
+        'confirm_delete' => false,
+
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
     | Repository
     |--------------------------------------------------------------------------
     |
@@ -481,7 +498,7 @@ return [
     'ckeditor' => [
 
         // Base path for configuration files, relative to the public/ path.
-        'path' => '_cms/js/ckeditor',
+        'path' => '_cms/js/ckeditor/config',
 
         // Default configuration file to use, relative to the base path
         'config' => 'default.js',
