@@ -309,12 +309,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-acl-module.git",
-                "reference": "06e4ecd1f18a0e07f3416ec87a1ae126aa7baee3"
+                "reference": "f5fa60246d4aede69fd9e435cd461549bc44db63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-acl-module/zipball/06e4ecd1f18a0e07f3416ec87a1ae126aa7baee3",
-                "reference": "06e4ecd1f18a0e07f3416ec87a1ae126aa7baee3",
+                "url": "https://api.github.com/repos/czim/laravel-cms-acl-module/zipball/f5fa60246d4aede69fd9e435cd461549bc44db63",
+                "reference": "f5fa60246d4aede69fd9e435cd461549bc44db63",
                 "shasum": ""
             },
             "require": {
@@ -341,7 +341,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2017-02-13 11:25:56"
+            "time": "2017-02-20 17:22:27"
         },
         {
             "name": "czim/laravel-cms-auth",
@@ -397,12 +397,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-core.git",
-                "reference": "c42ebd9d32772a2579c7f838e224a5ddbc3922c5"
+                "reference": "449554b596e90e59bdab2cf23edc414b58386f72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-core/zipball/c42ebd9d32772a2579c7f838e224a5ddbc3922c5",
-                "reference": "c42ebd9d32772a2579c7f838e224a5ddbc3922c5",
+                "url": "https://api.github.com/repos/czim/laravel-cms-core/zipball/449554b596e90e59bdab2cf23edc414b58386f72",
+                "reference": "449554b596e90e59bdab2cf23edc414b58386f72",
                 "shasum": ""
             },
             "require": {
@@ -441,7 +441,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2017-02-19 12:48:39"
+            "time": "2017-02-20 15:21:13"
         },
         {
             "name": "czim/laravel-cms-models",
@@ -449,12 +449,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-models.git",
-                "reference": "70e63c439309c13bc4e71928b5bfc84db93b7092"
+                "reference": "c2ec4e8636be8d67ca0742eefe747774a4f278e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-models/zipball/70e63c439309c13bc4e71928b5bfc84db93b7092",
-                "reference": "70e63c439309c13bc4e71928b5bfc84db93b7092",
+                "url": "https://api.github.com/repos/czim/laravel-cms-models/zipball/c2ec4e8636be8d67ca0742eefe747774a4f278e5",
+                "reference": "c2ec4e8636be8d67ca0742eefe747774a4f278e5",
                 "shasum": ""
             },
             "require": {
@@ -485,7 +485,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2017-02-19 12:45:35"
+            "time": "2017-02-20 17:44:04"
         },
         {
             "name": "czim/laravel-cms-theme",
@@ -493,12 +493,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-theme.git",
-                "reference": "3e7ada775593065d02d924c0b2c0c961d1e61c23"
+                "reference": "367715120debbf7e41e1ef38c0727d192ca25496"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-theme/zipball/3e7ada775593065d02d924c0b2c0c961d1e61c23",
-                "reference": "3e7ada775593065d02d924c0b2c0c961d1e61c23",
+                "url": "https://api.github.com/repos/czim/laravel-cms-theme/zipball/367715120debbf7e41e1ef38c0727d192ca25496",
+                "reference": "367715120debbf7e41e1ef38c0727d192ca25496",
                 "shasum": ""
             },
             "require": {
@@ -529,7 +529,7 @@
                 "theme",
                 "view"
             ],
-            "time": "2017-02-18 22:48:03"
+            "time": "2017-02-20 11:37:11"
         },
         {
             "name": "czim/laravel-dataobject",
@@ -687,16 +687,16 @@
         },
         {
             "name": "czim/laravel-repository",
-            "version": "1.2.2",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-repository.git",
-                "reference": "060a17a74f8ead4973f8b0119f8cda46de019d96"
+                "reference": "f4c09e31d93817c54d5b2dea9b21f2c45cbcc1d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-repository/zipball/060a17a74f8ead4973f8b0119f8cda46de019d96",
-                "reference": "060a17a74f8ead4973f8b0119f8cda46de019d96",
+                "url": "https://api.github.com/repos/czim/laravel-repository/zipball/f4c09e31d93817c54d5b2dea9b21f2c45cbcc1d6",
+                "reference": "f4c09e31d93817c54d5b2dea9b21f2c45cbcc1d6",
                 "shasum": ""
             },
             "require": {
@@ -741,7 +741,7 @@
                 "repositories",
                 "repository"
             ],
-            "time": "2017-02-18T18:53:58+00:00"
+            "time": "2017-02-20T09:51:37+00:00"
         },
         {
             "name": "dimsav/laravel-translatable",
