@@ -36,41 +36,84 @@ return [
 
     'menu' => [
 
-        // Group structure (listed by key) that modules can hook into.
-        // This will define a menu structure that may be nested as follows:
+        // Whether to automatically cache the menu layout
+        'cache' => false,
+
+        // A menu layout with groups may be defined here, along with the order in which they appear.
+        // Groups are represented by arrays. Menu items for modules are referenced by module key.
         //
-        //      'some-group-key' => [
-        //          'label'    => 'Display Name of Group',
+        // Example:
+        //
+        //  'layout' => [
+        //      [
+        //          'label' => 'Group label for display',
         //          'children' => [
-        //              'some-other-group-key' => [ 'name' => 'Another Display Name' ]
+        //              'another.module-key',
+        //              'yet-another.module-key',
         //          ]
-        //      ]
+        //      ],
+        //      'some.module-key',
+        //  ]
 
-        'groups' => [
-
-            'some-group' => [
-                'label' => 'group display name',
+        'layout' => [
+            'example-custom-dashboard',
+            [
+                'label'    => 'Product Structure',
+                'icon'     => 'folder-open-o',
                 'children' => [
-                    'nested-group' => [
-                        'label' => 'another group',
-                    ],
-                ],
+                    'models.app-models-category',
+                    'models.app-models-brand',
+                ]
             ],
-
+            [
+                'label'    => 'Products',
+                'icon'     => 'shopping-cart',
+                'children' => [
+                    'models.app-models-product',
+                    'models.app-models-variant',
+                ]
+            ],
+            'acl-simple',
         ],
 
-        // Per module menu presence configuration.
+        // Module menu presence configuration and default order of appearance.
         //
-        //      'module-slug' => [
-        //          // to move the module's menu presence to a group:
-        //          'group' => 'some-group-key',
-        //          // to override the module's default presence configuration entirely:
-        //          'presence' => ...
-        //      ]
+        // Entries in this array may be either module keys, or key value pairs with
+        // further configuration for a module's menu presence.
+        //
+        // Note that the order of appearance defined in the layout key above overrules
+        // the order of the module keys below.
+        //
+        // Example:
+        //
+        //  'modules' => [
+        //      'first-module-key',
+        //      'second-module-key',
+        //      'third-module-key' => [
+        //          'label' => 'Custom Label',
+        //          'icon'  => 'home',
+        //      ],
+        //      'some.module-key',
+        //  ]
 
         'modules' => [
-            'test-module' => [
-                'group' =>'some-group',
+            'example-custom-dashboard' => [
+                'icon' => 'dashboard',
+            ],
+            'acl-simple' => [
+                'icon' => 'user-circle',
+            ],
+            'models.app-models-category' => [
+                'icon' => 'sitemap',
+            ],
+            'models.app-models-brand' => [
+                'icon' => 'star-o',
+            ],
+            'models.app-models-product' => [
+                'icon' => 'shopping-cart',
+            ],
+            'models.app-models-variant' => [
+                'icon' => 'shopping-bag',
             ],
         ],
 
