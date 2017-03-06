@@ -55,6 +55,7 @@ return [
         'form' => [
             'general-validation' => 'Controleer de invoer en probeer het opnieuw.',
             'errors-on-tab'      => 'Problemen met invoer op dit tabblad',
+            'show-all-errors'    => 'Toon alle gedetecteerde problemen',
         ],
     ],
 

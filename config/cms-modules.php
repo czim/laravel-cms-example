@@ -28,9 +28,8 @@ return [
     | Menu
     |--------------------------------------------------------------------------
     |
-    | Adding modules may enable default menu presence, but this depends
-    | on the module content. To customize (or disable) menu presence,
-    | you can set per-module menu configuration in this section.
+    | The menu is composed of module presences, which may be configured,
+    | ordered, or even assigned in a specific nested, grouped layout.
     |
     */
 
