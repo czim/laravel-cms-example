@@ -336,12 +336,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-auth.git",
-                "reference": "c5121c10b71d6752f1781d9f44647ab5034c1361"
+                "reference": "67c35ef9d206b15d6c61340ec7e1edf7f247614e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-auth/zipball/c5121c10b71d6752f1781d9f44647ab5034c1361",
-                "reference": "c5121c10b71d6752f1781d9f44647ab5034c1361",
+                "url": "https://api.github.com/repos/czim/laravel-cms-auth/zipball/67c35ef9d206b15d6c61340ec7e1edf7f247614e",
+                "reference": "67c35ef9d206b15d6c61340ec7e1edf7f247614e",
                 "shasum": ""
             },
             "require": {
@@ -376,7 +376,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2016-12-18 09:40:27"
+            "time": "2017-03-11 10:01:34"
         },
         {
             "name": "czim/laravel-cms-core",
@@ -384,12 +384,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-core.git",
-                "reference": "e07133e9cfe13c820053d2e750221ea7bd50478c"
+                "reference": "9feeb3f178398a669c7888f62beb46e2039784b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-core/zipball/e07133e9cfe13c820053d2e750221ea7bd50478c",
-                "reference": "e07133e9cfe13c820053d2e750221ea7bd50478c",
+                "url": "https://api.github.com/repos/czim/laravel-cms-core/zipball/9feeb3f178398a669c7888f62beb46e2039784b9",
+                "reference": "9feeb3f178398a669c7888f62beb46e2039784b9",
                 "shasum": ""
             },
             "require": {
@@ -428,7 +428,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2017-03-06 15:12:39"
+            "time": "2017-03-11 13:08:20"
         },
         {
             "name": "czim/laravel-cms-models",
@@ -436,12 +436,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-models.git",
-                "reference": "cf0c4109955b3b8e91e6f9d4fd07738213ce2bca"
+                "reference": "24ee8709363db95518122a4c533d459286d2cd08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-models/zipball/cf0c4109955b3b8e91e6f9d4fd07738213ce2bca",
-                "reference": "cf0c4109955b3b8e91e6f9d4fd07738213ce2bca",
+                "url": "https://api.github.com/repos/czim/laravel-cms-models/zipball/24ee8709363db95518122a4c533d459286d2cd08",
+                "reference": "24ee8709363db95518122a4c533d459286d2cd08",
                 "shasum": ""
             },
             "require": {
@@ -472,7 +472,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2017-03-06 09:58:55"
+            "time": "2017-03-10 17:38:38"
         },
         {
             "name": "czim/laravel-cms-theme",
@@ -2481,16 +2481,16 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.2.4",
+            "version": "v3.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "9137eb3a3328e413212826d63eeeb0217836e2b6"
+                "reference": "b7a1b9e0a0f623ce43b4c8d775eb138f190c9d8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/9137eb3a3328e413212826d63eeeb0217836e2b6",
-                "reference": "9137eb3a3328e413212826d63eeeb0217836e2b6",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/b7a1b9e0a0f623ce43b4c8d775eb138f190c9d8d",
+                "reference": "b7a1b9e0a0f623ce43b4c8d775eb138f190c9d8d",
                 "shasum": ""
             },
             "require": {
@@ -2537,7 +2537,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-02T20:32:22+00:00"
+            "time": "2017-02-21T09:12:04+00:00"
         },
         {
             "name": "symfony/finder",
@@ -4574,16 +4574,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.2.4",
+            "version": "v3.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "9724c684646fcb5387d579b4bfaa63ee0b0c64c8"
+                "reference": "093e416ad096355149e265ea2e4cc1f9ee40ab1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/9724c684646fcb5387d579b4bfaa63ee0b0c64c8",
-                "reference": "9724c684646fcb5387d579b4bfaa63ee0b0c64c8",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/093e416ad096355149e265ea2e4cc1f9ee40ab1a",
+                "reference": "093e416ad096355149e265ea2e4cc1f9ee40ab1a",
                 "shasum": ""
             },
             "require": {
@@ -4625,7 +4625,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-16T22:46:52+00:00"
+            "time": "2017-03-07T16:47:02+00:00"
         }
     ],
     "aliases": [],
