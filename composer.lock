@@ -296,12 +296,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-acl-module.git",
-                "reference": "f5fa60246d4aede69fd9e435cd461549bc44db63"
+                "reference": "ec3804f463918156abeeef82ac4916a315c0f391"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-acl-module/zipball/f5fa60246d4aede69fd9e435cd461549bc44db63",
-                "reference": "f5fa60246d4aede69fd9e435cd461549bc44db63",
+                "url": "https://api.github.com/repos/czim/laravel-cms-acl-module/zipball/ec3804f463918156abeeef82ac4916a315c0f391",
+                "reference": "ec3804f463918156abeeef82ac4916a315c0f391",
                 "shasum": ""
             },
             "require": {
@@ -328,7 +328,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2017-02-20 17:22:27"
+            "time": "2017-03-20 14:37:52"
         },
         {
             "name": "czim/laravel-cms-auth",
@@ -336,12 +336,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-auth.git",
-                "reference": "67c35ef9d206b15d6c61340ec7e1edf7f247614e"
+                "reference": "d1d39f069f9b68a3bb15c41f1e7f577411eedfbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-auth/zipball/67c35ef9d206b15d6c61340ec7e1edf7f247614e",
-                "reference": "67c35ef9d206b15d6c61340ec7e1edf7f247614e",
+                "url": "https://api.github.com/repos/czim/laravel-cms-auth/zipball/d1d39f069f9b68a3bb15c41f1e7f577411eedfbf",
+                "reference": "d1d39f069f9b68a3bb15c41f1e7f577411eedfbf",
                 "shasum": ""
             },
             "require": {
@@ -354,6 +354,7 @@
                 "mockery/mockery": "0.9.*",
                 "orchestra/testbench": "3.3.*",
                 "phpunit/phpunit": "4.*",
+                "satooshi/php-coveralls": "^1.0",
                 "scrutinizer/ocular": "~1.1"
             },
             "type": "library",
@@ -376,7 +377,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2017-03-11 10:01:34"
+            "time": "2017-03-12 13:13:38"
         },
         {
             "name": "czim/laravel-cms-core",
@@ -384,12 +385,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-core.git",
-                "reference": "9feeb3f178398a669c7888f62beb46e2039784b9"
+                "reference": "6923ce041567d085d39342aeef8da9596e972283"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-core/zipball/9feeb3f178398a669c7888f62beb46e2039784b9",
-                "reference": "9feeb3f178398a669c7888f62beb46e2039784b9",
+                "url": "https://api.github.com/repos/czim/laravel-cms-core/zipball/6923ce041567d085d39342aeef8da9596e972283",
+                "reference": "6923ce041567d085d39342aeef8da9596e972283",
                 "shasum": ""
             },
             "require": {
@@ -428,7 +429,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2017-03-11 13:08:20"
+            "time": "2017-03-20 18:56:25"
         },
         {
             "name": "czim/laravel-cms-models",
@@ -436,27 +437,30 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-models.git",
-                "reference": "24ee8709363db95518122a4c533d459286d2cd08"
+                "reference": "e712cf75866965056764e76c73a7da63910be0ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-models/zipball/24ee8709363db95518122a4c533d459286d2cd08",
-                "reference": "24ee8709363db95518122a4c533d459286d2cd08",
+                "url": "https://api.github.com/repos/czim/laravel-cms-models/zipball/e712cf75866965056764e76c73a7da63910be0ff",
+                "reference": "e712cf75866965056764e76c73a7da63910be0ff",
                 "shasum": ""
             },
             "require": {
                 "czim/laravel-filter": "^1.0",
                 "czim/laravel-repository": "1.2.*",
-                "php": ">=5.5.9",
+                "doctrine/dbal": "^2.5",
+                "php": ">=5.6.4",
                 "phpdocumentor/reflection-docblock": "^3.1"
             },
             "require-dev": {
                 "codesleeve/laravel-stapler": "^1.0",
-                "czim/laravel-cms-core": "~1.3",
+                "czim/laravel-cms-core": "1.3.*",
+                "czim/laravel-listify": "^1.0",
                 "dimsav/laravel-translatable": "^5.6",
                 "mockery/mockery": "0.9.*",
-                "orchestra/testbench": "~3.0",
+                "orchestra/testbench": "3.3.*",
                 "phpunit/phpunit": "4.*",
+                "satooshi/php-coveralls": "^1.0",
                 "scrutinizer/ocular": "~1.1"
             },
             "type": "library",
@@ -466,13 +470,19 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Coen Zimmerman",
+                    "email": "coen@pixelindustries.com"
+                }
+            ],
             "description": "Laravel CMS: Main Models Module Generator",
             "homepage": "https://github.com/czim",
             "keywords": [
                 "cms",
                 "laravel"
             ],
-            "time": "2017-03-10 17:38:38"
+            "time": "2017-03-20 16:42:03"
         },
         {
             "name": "czim/laravel-cms-theme",
@@ -480,12 +490,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-theme.git",
-                "reference": "630571ca73d30a7556da89dead6a2379d65047d2"
+                "reference": "7f9cb178400dc16eafd08cadececf29d05cf7b03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-theme/zipball/630571ca73d30a7556da89dead6a2379d65047d2",
-                "reference": "630571ca73d30a7556da89dead6a2379d65047d2",
+                "url": "https://api.github.com/repos/czim/laravel-cms-theme/zipball/7f9cb178400dc16eafd08cadececf29d05cf7b03",
+                "reference": "7f9cb178400dc16eafd08cadececf29d05cf7b03",
                 "shasum": ""
             },
             "require": {
@@ -513,7 +523,7 @@
                 "theme",
                 "view"
             ],
-            "time": "2017-03-06 10:55:33"
+            "time": "2017-03-20 14:37:05"
         },
         {
             "name": "czim/laravel-dataobject",
@@ -812,6 +822,355 @@
             "time": "2014-10-24T07:27:01+00:00"
         },
         {
+            "name": "doctrine/annotations",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/annotations.git",
+                "reference": "54cacc9b81758b14e3ce750f205a393d52339e97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/54cacc9b81758b14e3ce750f205a393d52339e97",
+                "reference": "54cacc9b81758b14e3ce750f205a393d52339e97",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/lexer": "1.*",
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "doctrine/cache": "1.*",
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Common\\Annotations\\": "lib/Doctrine/Common/Annotations"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Docblock Annotations Parser",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "annotations",
+                "docblock",
+                "parser"
+            ],
+            "time": "2017-02-24T16:22:25+00:00"
+        },
+        {
+            "name": "doctrine/cache",
+            "version": "v1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/cache.git",
+                "reference": "b6f544a20f4807e81f7044d31e679ccbb1866dc3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/b6f544a20f4807e81f7044d31e679ccbb1866dc3",
+                "reference": "b6f544a20f4807e81f7044d31e679ccbb1866dc3",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~5.5|~7.0"
+            },
+            "conflict": {
+                "doctrine/common": ">2.2,<2.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8|~5.0",
+                "predis/predis": "~1.0",
+                "satooshi/php-coveralls": "~0.6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Common\\Cache\\": "lib/Doctrine/Common/Cache"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Caching library offering an object-oriented API for many cache backends",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "cache",
+                "caching"
+            ],
+            "time": "2016-10-29T11:16:17+00:00"
+        },
+        {
+            "name": "doctrine/collections",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/collections.git",
+                "reference": "1a4fb7e902202c33cce8c55989b945612943c2ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/1a4fb7e902202c33cce8c55989b945612943c2ba",
+                "reference": "1a4fb7e902202c33cce8c55989b945612943c2ba",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "~0.1@dev",
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Collections\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Collections Abstraction library",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "array",
+                "collections",
+                "iterator"
+            ],
+            "time": "2017-01-03T10:49:41+00:00"
+        },
+        {
+            "name": "doctrine/common",
+            "version": "v2.7.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/common.git",
+                "reference": "930297026c8009a567ac051fd545bf6124150347"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/930297026c8009a567ac051fd545bf6124150347",
+                "reference": "930297026c8009a567ac051fd545bf6124150347",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/annotations": "1.*",
+                "doctrine/cache": "1.*",
+                "doctrine/collections": "1.*",
+                "doctrine/inflector": "1.*",
+                "doctrine/lexer": "1.*",
+                "php": "~5.6|~7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.4.6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.7.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Common\\": "lib/Doctrine/Common"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Common Library for Doctrine projects",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "annotations",
+                "collections",
+                "eventmanager",
+                "persistence",
+                "spl"
+            ],
+            "time": "2017-01-13T14:02:13+00:00"
+        },
+        {
+            "name": "doctrine/dbal",
+            "version": "v2.5.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/dbal.git",
+                "reference": "7b9e911f9d8b30d43b96853dab26898c710d8f44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/7b9e911f9d8b30d43b96853dab26898c710d8f44",
+                "reference": "7b9e911f9d8b30d43b96853dab26898c710d8f44",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/common": ">=2.4,<2.8-dev",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*",
+                "symfony/console": "2.*||^3.0"
+            },
+            "suggest": {
+                "symfony/console": "For helpful console commands such as SQL execution and import of files."
+            },
+            "bin": [
+                "bin/doctrine-dbal"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\DBAL\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                }
+            ],
+            "description": "Database Abstraction Layer",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "database",
+                "dbal",
+                "persistence",
+                "queryobject"
+            ],
+            "time": "2017-02-08T12:53:47+00:00"
+        },
+        {
             "name": "doctrine/inflector",
             "version": "v1.1.0",
             "source": {
@@ -877,6 +1236,60 @@
                 "string"
             ],
             "time": "2015-11-06T14:35:42+00:00"
+        },
+        {
+            "name": "doctrine/lexer",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/lexer.git",
+                "reference": "83893c552fd2045dd78aef794c31e694c37c0b8c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/lexer/zipball/83893c552fd2045dd78aef794c31e694c37c0b8c",
+                "reference": "83893c552fd2045dd78aef794c31e694c37c0b8c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Lexer\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Base library for a lexer that can be used in Top-Down, Recursive Descent Parsers.",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "lexer",
+                "parser"
+            ],
+            "time": "2014-09-09T13:34:57+00:00"
         },
         {
             "name": "imagine/imagine",
@@ -1260,16 +1673,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.35",
+            "version": "1.0.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "dda7f3ab94158a002d9846a97dc18ebfb7acc062"
+                "reference": "d9c1698582dfbfbd092ec9c5c3325f862cdb3297"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/dda7f3ab94158a002d9846a97dc18ebfb7acc062",
-                "reference": "dda7f3ab94158a002d9846a97dc18ebfb7acc062",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/d9c1698582dfbfbd092ec9c5c3325f862cdb3297",
+                "reference": "d9c1698582dfbfbd092ec9c5c3325f862cdb3297",
                 "shasum": ""
             },
             "require": {
@@ -1339,7 +1752,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2017-02-09T11:33:58+00:00"
+            "time": "2017-03-18T16:02:30+00:00"
         },
         {
             "name": "league/fractal",
@@ -1470,25 +1883,25 @@
         },
         {
             "name": "lucadegasperi/oauth2-server-laravel",
-            "version": "5.2.0",
+            "version": "5.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lucadegasperi/oauth2-server-laravel.git",
-                "reference": "c04fead3be7abad9170be6191432ba6d06029734"
+                "reference": "b884f6030ce562dc21838e408371b5e942a3e967"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lucadegasperi/oauth2-server-laravel/zipball/c04fead3be7abad9170be6191432ba6d06029734",
-                "reference": "c04fead3be7abad9170be6191432ba6d06029734",
+                "url": "https://api.github.com/repos/lucadegasperi/oauth2-server-laravel/zipball/b884f6030ce562dc21838e408371b5e942a3e967",
+                "reference": "b884f6030ce562dc21838e408371b5e942a3e967",
                 "shasum": ""
             },
             "require": {
-                "illuminate/config": "5.1.* || 5.2.* || 5.3.*",
-                "illuminate/console": "5.1.* || 5.2.* || 5.3.*",
-                "illuminate/contracts": "5.1.* || 5.2.* || 5.3.*",
-                "illuminate/database": "5.1.* || 5.2.* || 5.3.*",
-                "illuminate/http": "5.1.* || 5.2.* || 5.3.*",
-                "illuminate/support": "5.1.* || 5.2.* || 5.3.*",
+                "illuminate/config": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
+                "illuminate/console": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
+                "illuminate/contracts": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
+                "illuminate/database": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
+                "illuminate/http": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
+                "illuminate/support": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
                 "league/oauth2-server": "4.1.*",
                 "php": ">=5.5.9"
             },
@@ -1534,20 +1947,20 @@
                 "server"
             ],
             "abandoned": "laravel/passport",
-            "time": "2016-08-10T13:50:33+00:00"
+            "time": "2017-03-13T17:10:33+00:00"
         },
         {
             "name": "monolog/monolog",
-            "version": "1.22.0",
+            "version": "1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "bad29cb8d18ab0315e6c477751418a82c850d558"
+                "reference": "1e044bc4b34e91743943479f1be7a1d5eb93add0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bad29cb8d18ab0315e6c477751418a82c850d558",
-                "reference": "bad29cb8d18ab0315e6c477751418a82c850d558",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/1e044bc4b34e91743943479f1be7a1d5eb93add0",
+                "reference": "1e044bc4b34e91743943479f1be7a1d5eb93add0",
                 "shasum": ""
             },
             "require": {
@@ -1612,7 +2025,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-11-26T00:15:39+00:00"
+            "time": "2017-03-13T07:08:03+00:00"
         },
         {
             "name": "mtdowling/cron-expression",
@@ -1808,16 +2221,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.9",
+            "version": "v2.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "6968531206671f94377b01dc7888d5d1b858a01b"
+                "reference": "634bae8e911eefa89c1abfbf1b66da679ac8f54d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/6968531206671f94377b01dc7888d5d1b858a01b",
-                "reference": "6968531206671f94377b01dc7888d5d1b858a01b",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/634bae8e911eefa89c1abfbf1b66da679ac8f54d",
+                "reference": "634bae8e911eefa89c1abfbf1b66da679ac8f54d",
                 "shasum": ""
             },
             "require": {
@@ -1852,7 +2265,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2017-03-03T20:43:42+00:00"
+            "time": "2017-03-13T16:27:32+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -2099,16 +2512,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.8.2",
+            "version": "v0.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "97113db4107a4126bef933b60fea6dbc9f615d41"
+                "reference": "1dd4bbbc64d71e7ec075ffe82b42d9e096dc8d5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/97113db4107a4126bef933b60fea6dbc9f615d41",
-                "reference": "97113db4107a4126bef933b60fea6dbc9f615d41",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/1dd4bbbc64d71e7ec075ffe82b42d9e096dc8d5e",
+                "reference": "1dd4bbbc64d71e7ec075ffe82b42d9e096dc8d5e",
                 "shasum": ""
             },
             "require": {
@@ -2168,25 +2581,25 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2017-03-01T00:13:29+00:00"
+            "time": "2017-03-19T21:40:44+00:00"
         },
         {
             "name": "ramsey/uuid",
-            "version": "3.5.2",
+            "version": "3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "5677cfe02397dd6b58c861870dfaa5d9007d3954"
+                "reference": "0b7bdfb180e72c8d76e75a649ced67e392201458"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/5677cfe02397dd6b58c861870dfaa5d9007d3954",
-                "reference": "5677cfe02397dd6b58c861870dfaa5d9007d3954",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/0b7bdfb180e72c8d76e75a649ced67e392201458",
+                "reference": "0b7bdfb180e72c8d76e75a649ced67e392201458",
                 "shasum": ""
             },
             "require": {
                 "paragonie/random_compat": "^1.0|^2.0",
-                "php": ">=5.4"
+                "php": "^5.4 || ^7.0"
             },
             "replace": {
                 "rhumsaa/uuid": "self.version"
@@ -2250,7 +2663,7 @@
                 "identifier",
                 "uuid"
             ],
-            "time": "2016-11-22T19:21:44+00:00"
+            "time": "2017-03-18T15:38:09+00:00"
         },
         {
             "name": "rtconner/laravel-tagging",
@@ -3811,16 +4224,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.7.15",
+            "version": "5.7.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "b99112aecc01f62acf3d81a3f59646700a1849e5"
+                "reference": "68752b665d3875f9a38a357e3ecb35c79f8673bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b99112aecc01f62acf3d81a3f59646700a1849e5",
-                "reference": "b99112aecc01f62acf3d81a3f59646700a1849e5",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/68752b665d3875f9a38a357e3ecb35c79f8673bf",
+                "reference": "68752b665d3875f9a38a357e3ecb35c79f8673bf",
                 "shasum": ""
             },
             "require": {
@@ -3889,7 +4302,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-03-02T15:22:43+00:00"
+            "time": "2017-03-19T16:52:12+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
