@@ -44,6 +44,14 @@ Besides the normal procedure for getting a laravel installation running (`compos
     php artisan cms:user:create <name> <password> --admin
     ```
 
+4. Optionally, to speed things up, cache some data:
+
+    ```bash
+    php artisan cms:menu:cache
+    php artisan cms:models:cache
+    ```
+
+
 ## Application
 
 The example application combines a simple product catalog structure with a blog.  
