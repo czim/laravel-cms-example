@@ -37,6 +37,12 @@ return [
             'email' => 'Email',
             'roles' => 'Roles',
         ],
+
+        'flash' => [
+            'success-message-create' => 'User :record successfully created.',
+            'success-message-edit'   => 'User :record successfully edited.',
+            'success-message-delete' => 'User :record successfully deleted.',
+        ],
     ],
 
     'roles' => [
@@ -64,6 +70,12 @@ return [
             'key'         => 'Key',
             'in-use'      => 'In Use',
             'permissions' => 'Permissions',
+        ],
+
+        'flash' => [
+            'success-message-create' => 'Role :record successfully created.',
+            'success-message-edit'   => 'Role :record successfully edited.',
+            'success-message-delete' => 'Role :record successfully deleted.',
         ],
     ],
 

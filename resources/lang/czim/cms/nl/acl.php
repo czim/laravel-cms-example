@@ -37,6 +37,12 @@ return [
             'email' => 'E-mail',
             'roles' => 'Rollen',
         ],
+
+        'flash' => [
+            'success-message-create' => 'Gebruiker :record succesvol toegevoegd.',
+            'success-message-edit'   => 'Gebruiker :record succesvol bewerkt.',
+            'success-message-delete' => 'Gebruiker :record succesvol verwijderd.',
+        ],
     ],
 
     'roles' => [
@@ -64,6 +70,12 @@ return [
             'key'         => 'Id',
             'in-use'      => 'Gebruikt',
             'permissions' => 'Rechten',
+        ],
+
+        'flash' => [
+            'success-message-create' => 'Rol :record succesvol toegevoegd.',
+            'success-message-edit'   => 'Rol :record succesvol bewerkt.',
+            'success-message-delete' => 'Rol :record succesvol verwijderd.',
         ],
     ],
 
