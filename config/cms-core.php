@@ -338,7 +338,7 @@ return [
 
         // If using a separate log, the (path or) file to write to,
         // relative to the storage/logs directory.
-        'file' => 'cms',
+        'file' => 'cms.log',
 
         // Whether to split files over days, rather than use a single log file.
         'daily' => true,
