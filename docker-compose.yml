@@ -1,0 +1,45 @@
+version: "2.1"
+
+services:
+
+  app:
+    image: creativitykills/nginx-php-server:latest
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    restart: unless-stopped
+    environment:
+      DB_CONNECTION: mysql
+      CACHE_DRIVER: redis
+      SESSION_DRIVER: redis
+      REDIS_HOST: redis
+      DB_HOST: mysql
+    volumes:
+      - .:/var/www
+    ports:
+      - 8000:80
+    links:
+      - redis
+      - mysql
+
+  redis:
+    image: redis:alpine
+    restart: unless-stopped
+
+  mysql:
+    image: mysql:5.7
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "echo", "'SELECT 1'", "|",  "mysql", "-u", "root"]
+    environment:
+      MYSQL_DATABASE: homestead
+      MYSQL_USER: homestead
+      MYSQL_PASSWORD: secret
+      MYSQL_ALLOW_EMPTY_PASSWORD: 1
+    volumes:
+      - mysql:/var/lib/mysql
+
+volumes:
+    mysql:
