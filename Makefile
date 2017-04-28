@@ -24,7 +24,8 @@ cache:
 	${INFO} "Caching menu & models information..."
 	docker-compose exec app bash -c 'php artisan cms:menu:cache; (exit $?)' && \
 		docker-compose exec app bash -c 'php artisan cms:models:cache; (exit $?)' && \
-		docker-compose exec app bash -c 'php artisan config:cache; (exit $?)'
+		docker-compose exec app bash -c 'php artisan config:cache; (exit $?)' && \
+		docker-compose exec app bash -c 'php artisan route:cache; (exit $?)'
 
 flush:
 	${INFO} "Flushing cache for menu & models..."
