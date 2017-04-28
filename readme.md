@@ -41,7 +41,7 @@ If you have Docker, the Makefile will help you get set up quickly.
     
     This will cache CMS information, Laravel config & routes.
 
-Your application will then run on `http://localhost:8000` if all went well.
+Your application will then run on `http://localhost:8000/cms` if all went well.
 
 ### For running in a custom environment
 
@@ -86,6 +86,10 @@ Your application will then run on `http://localhost:8000` if all went well.
     php artisan config:cache
     php artisan route:cache
     ```
+
+After this, the application should be ready.
+
+The relative path to the CMS is `/cms`, f.i. as: `http://laravel-cms-example.dev/cms`.
 
 
 ## Application
