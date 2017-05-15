@@ -28,8 +28,8 @@ class CreateOauthRefreshTokensTable extends CmsMigration
     public function up()
     {
         Schema::create($this->prefixCmsTable('oauth_refresh_tokens'), function (Blueprint $table) {
-            $table->string('id', 40)->unique();
-            $table->string('access_token_id', 40)->primary();
+            $table->string('id', 40)->primary();
+            $table->string('access_token_id', 40)->unique();
             $table->integer('expire_time');
 
             $table->nullableTimestamps();
