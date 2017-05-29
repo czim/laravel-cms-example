@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5c11fab326568bd317b2d01c78b2ca37",
+    "content-hash": "25d44902cadcb8c1cfba7ae79228553a",
     "packages": [
         {
             "name": "cartalyst/sentinel",
@@ -296,12 +296,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-acl-module.git",
-                "reference": "29fb379dc2349b7381788839dfb4f16cb3565f02"
+                "reference": "035e199356b79b1f1a969267de057febb2c32161"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-acl-module/zipball/29fb379dc2349b7381788839dfb4f16cb3565f02",
-                "reference": "29fb379dc2349b7381788839dfb4f16cb3565f02",
+                "url": "https://api.github.com/repos/czim/laravel-cms-acl-module/zipball/035e199356b79b1f1a969267de057febb2c32161",
+                "reference": "035e199356b79b1f1a969267de057febb2c32161",
                 "shasum": ""
             },
             "require": {
@@ -328,7 +328,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2017-04-28 13:27:58"
+            "time": "2017-05-29 12:55:54"
         },
         {
             "name": "czim/laravel-cms-auth",
@@ -385,12 +385,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-core.git",
-                "reference": "bd0c7751825223f9cdb4af20d7de3e18d7fc6bc5"
+                "reference": "484b9b615e63d140d9c228591be54b96c62b8a72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-core/zipball/bd0c7751825223f9cdb4af20d7de3e18d7fc6bc5",
-                "reference": "bd0c7751825223f9cdb4af20d7de3e18d7fc6bc5",
+                "url": "https://api.github.com/repos/czim/laravel-cms-core/zipball/484b9b615e63d140d9c228591be54b96c62b8a72",
+                "reference": "484b9b615e63d140d9c228591be54b96c62b8a72",
                 "shasum": ""
             },
             "require": {
@@ -429,7 +429,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2017-04-22 20:46:41"
+            "time": "2017-05-29 13:59:05"
         },
         {
             "name": "czim/laravel-cms-models",
@@ -437,12 +437,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-models.git",
-                "reference": "b203f56793fcf279f7723a35a7e91b69e1ae8e0b"
+                "reference": "3434220116c3670647383a8ccf28376d11098e31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-models/zipball/b203f56793fcf279f7723a35a7e91b69e1ae8e0b",
-                "reference": "b203f56793fcf279f7723a35a7e91b69e1ae8e0b",
+                "url": "https://api.github.com/repos/czim/laravel-cms-models/zipball/3434220116c3670647383a8ccf28376d11098e31",
+                "reference": "3434220116c3670647383a8ccf28376d11098e31",
                 "shasum": ""
             },
             "require": {
@@ -482,7 +482,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2017-05-15 16:31:05"
+            "time": "2017-05-29 12:55:29"
         },
         {
             "name": "czim/laravel-cms-theme",
@@ -490,12 +490,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-theme.git",
-                "reference": "51a60907ef77938990136697df8b34d8ba455dc2"
+                "reference": "5de230b38c0d15e671b50920a1a9e9b7db226593"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-theme/zipball/51a60907ef77938990136697df8b34d8ba455dc2",
-                "reference": "51a60907ef77938990136697df8b34d8ba455dc2",
+                "url": "https://api.github.com/repos/czim/laravel-cms-theme/zipball/5de230b38c0d15e671b50920a1a9e9b7db226593",
+                "reference": "5de230b38c0d15e671b50920a1a9e9b7db226593",
                 "shasum": ""
             },
             "require": {
@@ -523,7 +523,50 @@
                 "theme",
                 "view"
             ],
-            "time": "2017-04-28 13:17:17"
+            "time": "2017-05-29 12:53:36"
+        },
+        {
+            "name": "czim/laravel-cms-upload-module",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/czim/laravel-cms-upload-module.git",
+                "reference": "4a5fadd5326de6d4275e6b6ceb978c1fe834737f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/czim/laravel-cms-upload-module/zipball/4a5fadd5326de6d4275e6b6ceb978c1fe834737f",
+                "reference": "4a5fadd5326de6d4275e6b6ceb978c1fe834737f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "czim/laravel-cms-core": "~1.3",
+                "mockery/mockery": "0.9.*",
+                "orchestra/testbench": "3.3.*",
+                "phpunit/phpunit": "4.*",
+                "satooshi/php-coveralls": "^1.0",
+                "scrutinizer/ocular": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Czim\\CmsUploadModule\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Laravel CMS: File Upload Module",
+            "homepage": "https://github.com/czim",
+            "keywords": [
+                "cms",
+                "file",
+                "laravel",
+                "module",
+                "upload"
+            ],
+            "time": "2017-05-26 20:10:28"
         },
         {
             "name": "czim/laravel-dataobject",
@@ -2513,16 +2556,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.8.4",
+            "version": "v0.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "17cf432bb80d9198df239b80d00a29155bd74d82"
+                "reference": "38a9d21406597a0440690eafbcb0222f528c8ac6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/17cf432bb80d9198df239b80d00a29155bd74d82",
-                "reference": "17cf432bb80d9198df239b80d00a29155bd74d82",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/38a9d21406597a0440690eafbcb0222f528c8ac6",
+                "reference": "38a9d21406597a0440690eafbcb0222f528c8ac6",
                 "shasum": ""
             },
             "require": {
@@ -2582,7 +2625,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2017-05-12T15:41:55+00:00"
+            "time": "2017-05-17T06:49:19+00:00"
         },
         {
             "name": "ramsey/uuid",
@@ -4225,16 +4268,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.7.19",
+            "version": "5.7.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "69c4f49ff376af2692bad9cebd883d17ebaa98a1"
+                "reference": "3cb94a5f8c07a03c8b7527ed7468a2926203f58b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/69c4f49ff376af2692bad9cebd883d17ebaa98a1",
-                "reference": "69c4f49ff376af2692bad9cebd883d17ebaa98a1",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3cb94a5f8c07a03c8b7527ed7468a2926203f58b",
+                "reference": "3cb94a5f8c07a03c8b7527ed7468a2926203f58b",
                 "shasum": ""
             },
             "require": {
@@ -4252,7 +4295,7 @@
                 "phpunit/php-timer": "^1.0.6",
                 "phpunit/phpunit-mock-objects": "^3.2",
                 "sebastian/comparator": "^1.2.4",
-                "sebastian/diff": "~1.2",
+                "sebastian/diff": "^1.4.3",
                 "sebastian/environment": "^1.3.4 || ^2.0",
                 "sebastian/exporter": "~2.0",
                 "sebastian/global-state": "^1.1",
@@ -4303,7 +4346,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-04-03T02:22:27+00:00"
+            "time": "2017-05-22T07:42:55+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -4475,23 +4518,23 @@
         },
         {
             "name": "sebastian/diff",
-            "version": "1.4.1",
+            "version": "1.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/diff.git",
-                "reference": "13edfd8706462032c2f52b4b862974dd46b71c9e"
+                "reference": "7f066a26a962dbe58ddea9f72a4e82874a3975a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/13edfd8706462032c2f52b4b862974dd46b71c9e",
-                "reference": "13edfd8706462032c2f52b4b862974dd46b71c9e",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/7f066a26a962dbe58ddea9f72a4e82874a3975a4",
+                "reference": "7f066a26a962dbe58ddea9f72a4e82874a3975a4",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": "^5.3.3 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.8"
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
             },
             "type": "library",
             "extra": {
@@ -4523,7 +4566,7 @@
             "keywords": [
                 "diff"
             ],
-            "time": "2015-12-08T07:14:41+00:00"
+            "time": "2017-05-22T07:24:03+00:00"
         },
         {
             "name": "sebastian/environment",
@@ -5049,7 +5092,8 @@
         "czim/laravel-cms-auth": 20,
         "czim/laravel-cms-models": 20,
         "czim/laravel-cms-theme": 20,
-        "czim/laravel-cms-acl-module": 20
+        "czim/laravel-cms-acl-module": 20,
+        "czim/laravel-cms-upload-module": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

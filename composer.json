@@ -12,6 +12,7 @@
         "czim/laravel-cms-models": "dev-master",
         "czim/laravel-cms-theme": "dev-master",
         "czim/laravel-cms-acl-module": "dev-master",
+        "czim/laravel-cms-upload-module": "dev-master",
         "dimsav/laravel-translatable": "^6.0",
         "codesleeve/laravel-stapler": "^1.0",
         "czim/laravel-listify": "^1.0",
