@@ -9,12 +9,14 @@ CMS packages installed
 - [Laravel CMS Theme](https://github.com/czim/laravel-cms-theme)
 - [Laravel CMS ACL Module](https://github.com/czim/laravel-cms-acl-module)
 - [Laravel CMS Models Module](https://github.com/czim/laravel-cms-models)
+- [Laravel CMS File Upload Module](https://github.com/czim/laravel-cms-upload-module)
 
 
 Application packages used
 
 - [Translatable](https://github.com/dimsav/laravel-translatable)
 - [Listify](https://github.com/czim/laravel-listify)
+- [Stapler](https://github.com/CodeSleeve/laravel-stapler)
 
 
 ## Installation
