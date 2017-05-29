@@ -22,6 +22,10 @@ class CreateProductsTable extends Migration
             $table->integer('brand_id')->unsigned();
             $table->boolean('active')->default(true);
             $table->boolean('sale')->default(false);
+            $table->string('image_file_name', 255)->nullable();
+            $table->integer('image_file_size')->nullable();
+            $table->string('image_content_type')->nullable();
+            $table->timestamp('image_updated_at')->nullable();
             $table->timestamps();
         });
     }

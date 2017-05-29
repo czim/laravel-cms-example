@@ -2,12 +2,21 @@
 namespace App\Models;
 
 use App\Models\Scopes\ActiveScope;
+use Codesleeve\Stapler\ORM\EloquentTrait;
+use Codesleeve\Stapler\ORM\StaplerableInterface;
 use Dimsav\Translatable\Translatable;
 use Illuminate\Database\Eloquent\Model;
 
-class Product extends Model
+class Product extends Model implements StaplerableInterface
 {
-    use Translatable;
+    use Translatable,
+        EloquentTrait
+    {
+        Translatable::getAttribute as translatableGetAttribute;
+        Translatable::setAttribute as translatableSetAttribute;
+        EloquentTrait::getAttribute as staplerGetAttribute;
+        EloquentTrait::setAttribute as staplerSetAttribute;
+    }
 
     protected $fillable = [
         'title',
@@ -18,6 +27,7 @@ class Product extends Model
         'special_free',
         'sale',
         'active',
+        'image',
     ];
 
     public $translatedAttributes = [
@@ -31,9 +41,26 @@ class Product extends Model
         'sale'  => 'boolean',
     ];
 
+    /**
+     * {@inheritdoc}
+     */
+    public function __construct(array $attributes = [])
+    {
+        $this->hasAttachedFile('image', [
+            'styles' => [
+                'medium' => '300x300',
+                'thumb'  => '100x100'
+            ]
+        ]);
+
+        parent::__construct($attributes);
+    }
+
     protected static function boot()
     {
         parent::boot();
+
+        static::bootStapler();
         static::addGlobalScope(new ActiveScope());
     }
 
@@ -51,6 +78,39 @@ class Product extends Model
     public function variants()
     {
         return $this->hasMany(Variant::class);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getAttribute($key)
+    {
+        if (in_array($key, $this->translatedAttributes)) {
+            return $this->translatableGetAttribute($key);
+        }
+
+        if (array_key_exists($key, $this->attachedFiles)) {
+            return $this->staplerGetAttribute($key);
+        }
+
+        return parent::getAttribute($key);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function setAttribute($key, $value)
+    {
+        if (in_array($key, $this->translatedAttributes)) {
+            return $this->translatableSetAttribute($key, $value);
+        }
+
+        if (array_key_exists($key, $this->attachedFiles)) {
+            $this->staplerSetAttribute($key, $value);
+            return $this;
+        }
+
+        return parent::setAttribute($key, $value);
     }
 
 }

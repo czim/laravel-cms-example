@@ -165,6 +165,7 @@ return [
         // Module service providers
         Czim\CmsAclModule\Providers\CmsAclModuleServiceProvider::class,
         Czim\CmsModels\Providers\CmsModelsServiceProvider::class,
+        Czim\CmsUploadModule\Providers\CmsUploadModuleServiceProvider::class,
         Czim\CmsTheme\Providers\CmsThemeServiceProvider::class,
 
         // It is safest to call the route service providers last,

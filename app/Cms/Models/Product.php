@@ -60,6 +60,7 @@ return [
                             'model_name',
                             'brand',
                             'categories',
+                            'image',
                         ],
                     ],
                     'set-price' => [
@@ -109,6 +110,7 @@ return [
             'brand',
             'categories',
             'price',
+            'image',
             'sale',
             'special',
             'special_free',

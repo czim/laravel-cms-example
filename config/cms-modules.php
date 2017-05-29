@@ -21,6 +21,7 @@ return [
         App\Cms\Modules\Dashboard\CustomDashboardModule::class,
         Czim\CmsAclModule\AclModule::class,
         Czim\CmsModels\Modules\ModelModuleGenerator::class,
+        Czim\CmsUploadModule\Modules\UploadModule::class,
     ],
 
     /*
