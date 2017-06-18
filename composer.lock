@@ -336,12 +336,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-auth.git",
-                "reference": "1166731a8e5a109039390b580a50d1432ff2e913"
+                "reference": "b3218d827648e86a18ffba80628d0abebbd5cfac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-auth/zipball/1166731a8e5a109039390b580a50d1432ff2e913",
-                "reference": "1166731a8e5a109039390b580a50d1432ff2e913",
+                "url": "https://api.github.com/repos/czim/laravel-cms-auth/zipball/b3218d827648e86a18ffba80628d0abebbd5cfac",
+                "reference": "b3218d827648e86a18ffba80628d0abebbd5cfac",
                 "shasum": ""
             },
             "require": {
@@ -377,7 +377,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2017-04-28 13:20:23"
+            "time": "2017-06-10 09:18:18"
         },
         {
             "name": "czim/laravel-cms-core",
@@ -385,12 +385,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-core.git",
-                "reference": "484b9b615e63d140d9c228591be54b96c62b8a72"
+                "reference": "2bc02427509227ce7112aa6587653a5b10c9a926"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-core/zipball/484b9b615e63d140d9c228591be54b96c62b8a72",
-                "reference": "484b9b615e63d140d9c228591be54b96c62b8a72",
+                "url": "https://api.github.com/repos/czim/laravel-cms-core/zipball/2bc02427509227ce7112aa6587653a5b10c9a926",
+                "reference": "2bc02427509227ce7112aa6587653a5b10c9a926",
                 "shasum": ""
             },
             "require": {
@@ -429,7 +429,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2017-05-29 13:59:05"
+            "time": "2017-06-06 20:26:23"
         },
         {
             "name": "czim/laravel-cms-models",
@@ -437,12 +437,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-models.git",
-                "reference": "0a7c740cd108c4a5e46db92bea5344e08739843e"
+                "reference": "aa62650efea0e54e5489aabf4d97d71b7f98105d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-models/zipball/0a7c740cd108c4a5e46db92bea5344e08739843e",
-                "reference": "0a7c740cd108c4a5e46db92bea5344e08739843e",
+                "url": "https://api.github.com/repos/czim/laravel-cms-models/zipball/aa62650efea0e54e5489aabf4d97d71b7f98105d",
+                "reference": "aa62650efea0e54e5489aabf4d97d71b7f98105d",
                 "shasum": ""
             },
             "require": {
@@ -482,7 +482,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2017-05-29 16:39:02"
+            "time": "2017-06-15 06:20:40"
         },
         {
             "name": "czim/laravel-cms-theme",
@@ -490,12 +490,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-theme.git",
-                "reference": "5de230b38c0d15e671b50920a1a9e9b7db226593"
+                "reference": "8eec6ebb2ddba0c0bd576b54022a95893798a666"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-theme/zipball/5de230b38c0d15e671b50920a1a9e9b7db226593",
-                "reference": "5de230b38c0d15e671b50920a1a9e9b7db226593",
+                "url": "https://api.github.com/repos/czim/laravel-cms-theme/zipball/8eec6ebb2ddba0c0bd576b54022a95893798a666",
+                "reference": "8eec6ebb2ddba0c0bd576b54022a95893798a666",
                 "shasum": ""
             },
             "require": {
@@ -523,7 +523,7 @@
                 "theme",
                 "view"
             ],
-            "time": "2017-05-29 12:53:36"
+            "time": "2017-06-06 20:29:47"
         },
         {
             "name": "czim/laravel-cms-upload-module",
@@ -531,12 +531,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-upload-module.git",
-                "reference": "4a5fadd5326de6d4275e6b6ceb978c1fe834737f"
+                "reference": "a3811a7675e1494f99383ecc3097594961d18efb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-upload-module/zipball/4a5fadd5326de6d4275e6b6ceb978c1fe834737f",
-                "reference": "4a5fadd5326de6d4275e6b6ceb978c1fe834737f",
+                "url": "https://api.github.com/repos/czim/laravel-cms-upload-module/zipball/a3811a7675e1494f99383ecc3097594961d18efb",
+                "reference": "a3811a7675e1494f99383ecc3097594961d18efb",
                 "shasum": ""
             },
             "require": {
@@ -566,7 +566,7 @@
                 "module",
                 "upload"
             ],
-            "time": "2017-05-26 20:10:28"
+            "time": "2017-05-29 16:43:03"
         },
         {
             "name": "czim/laravel-dataobject",
@@ -620,16 +620,16 @@
         },
         {
             "name": "czim/laravel-filter",
-            "version": "1.0.9",
+            "version": "1.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-filter.git",
-                "reference": "de841c3bc47ff48b20139442377f81cb4cdcf37c"
+                "reference": "824b97b371c5f662e78c30afc207ee70169f2db2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-filter/zipball/de841c3bc47ff48b20139442377f81cb4cdcf37c",
-                "reference": "de841c3bc47ff48b20139442377f81cb4cdcf37c",
+                "url": "https://api.github.com/repos/czim/laravel-filter/zipball/824b97b371c5f662e78c30afc207ee70169f2db2",
+                "reference": "824b97b371c5f662e78c30afc207ee70169f2db2",
                 "shasum": ""
             },
             "require": {
@@ -670,7 +670,7 @@
                 "filters",
                 "laravel"
             ],
-            "time": "2017-02-23T13:53:58+00:00"
+            "time": "2017-06-15T06:13:05+00:00"
         },
         {
             "name": "czim/laravel-listify",
@@ -2556,16 +2556,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.8.5",
+            "version": "v0.8.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "38a9d21406597a0440690eafbcb0222f528c8ac6"
+                "reference": "7028d6d525fb183d50b249b7c07598e3d386b27d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/38a9d21406597a0440690eafbcb0222f528c8ac6",
-                "reference": "38a9d21406597a0440690eafbcb0222f528c8ac6",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/7028d6d525fb183d50b249b7c07598e3d386b27d",
+                "reference": "7028d6d525fb183d50b249b7c07598e3d386b27d",
                 "shasum": ""
             },
             "require": {
@@ -2595,7 +2595,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "0.9.x-dev"
+                    "dev-develop": "0.8.x-dev"
                 }
             },
             "autoload": {
@@ -2625,7 +2625,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2017-05-17T06:49:19+00:00"
+            "time": "2017-06-04T10:34:20+00:00"
         },
         {
             "name": "ramsey/uuid",
@@ -2938,25 +2938,28 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.2.8",
+            "version": "v3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "b8a401f733b43251e1d088c589368b2a94155e40"
+                "reference": "4054a102470665451108f9b59305c79176ef98f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/b8a401f733b43251e1d088c589368b2a94155e40",
-                "reference": "b8a401f733b43251e1d088c589368b2a94155e40",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/4054a102470665451108f9b59305c79176ef98f0",
+                "reference": "4054a102470665451108f9b59305c79176ef98f0",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.9"
             },
+            "conflict": {
+                "symfony/dependency-injection": "<3.3"
+            },
             "require-dev": {
                 "psr/log": "~1.0",
                 "symfony/config": "~2.8|~3.0",
-                "symfony/dependency-injection": "~2.8|~3.0",
+                "symfony/dependency-injection": "~3.3",
                 "symfony/expression-language": "~2.8|~3.0",
                 "symfony/stopwatch": "~2.8|~3.0"
             },
@@ -2967,7 +2970,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.2-dev"
+                    "dev-master": "3.3-dev"
                 }
             },
             "autoload": {
@@ -2994,7 +2997,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2017-05-01T14:58:48+00:00"
+            "time": "2017-06-04T18:15:29+00:00"
         },
         {
             "name": "symfony/finder",
@@ -3182,16 +3185,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4"
+                "reference": "f29dca382a6485c3cbe6379f0c61230167681937"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/e79d363049d1c2128f133a2667e4f4190904f7f4",
-                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f29dca382a6485c3cbe6379f0c61230167681937",
+                "reference": "f29dca382a6485c3cbe6379f0c61230167681937",
                 "shasum": ""
             },
             "require": {
@@ -3203,7 +3206,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
@@ -3237,20 +3240,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14T01:06:16+00:00"
+            "time": "2017-06-09T14:24:12+00:00"
         },
         {
             "name": "symfony/polyfill-php56",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php56.git",
-                "reference": "1dd42b9b89556f18092f3d1ada22cb05ac85383c"
+                "reference": "bc0b7d6cb36b10cfabb170a3e359944a95174929"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/1dd42b9b89556f18092f3d1ada22cb05ac85383c",
-                "reference": "1dd42b9b89556f18092f3d1ada22cb05ac85383c",
+                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/bc0b7d6cb36b10cfabb170a3e359944a95174929",
+                "reference": "bc0b7d6cb36b10cfabb170a3e359944a95174929",
                 "shasum": ""
             },
             "require": {
@@ -3260,7 +3263,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
@@ -3293,20 +3296,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14T01:06:16+00:00"
+            "time": "2017-06-09T08:25:21+00:00"
         },
         {
             "name": "symfony/polyfill-util",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-util.git",
-                "reference": "746bce0fca664ac0a575e465f65c6643faddf7fb"
+                "reference": "ebccbde4aad410f6438d86d7d261c6b4d2b9a51d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/746bce0fca664ac0a575e465f65c6643faddf7fb",
-                "reference": "746bce0fca664ac0a575e465f65c6643faddf7fb",
+                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/ebccbde4aad410f6438d86d7d261c6b4d2b9a51d",
+                "reference": "ebccbde4aad410f6438d86d7d261c6b4d2b9a51d",
                 "shasum": ""
             },
             "require": {
@@ -3315,7 +3318,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
@@ -3345,7 +3348,7 @@
                 "polyfill",
                 "shim"
             ],
-            "time": "2016-11-14T01:06:16+00:00"
+            "time": "2017-06-09T08:25:21+00:00"
         },
         {
             "name": "symfony/process",
@@ -5031,16 +5034,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.2.8",
+            "version": "v3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "acec26fcf7f3031e094e910b94b002fa53d4e4d6"
+                "reference": "9752a30000a8ca9f4b34b5227d15d0101b96b063"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/acec26fcf7f3031e094e910b94b002fa53d4e4d6",
-                "reference": "acec26fcf7f3031e094e910b94b002fa53d4e4d6",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/9752a30000a8ca9f4b34b5227d15d0101b96b063",
+                "reference": "9752a30000a8ca9f4b34b5227d15d0101b96b063",
                 "shasum": ""
             },
             "require": {
@@ -5055,7 +5058,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.2-dev"
+                    "dev-master": "3.3-dev"
                 }
             },
             "autoload": {
@@ -5082,7 +5085,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-05-01T14:55:58+00:00"
+            "time": "2017-06-02T22:05:06+00:00"
         }
     ],
     "aliases": [],

@@ -15,6 +15,9 @@ use Czim\CmsModels\Support\Enums;
 
 return [
 
+    // Whether model create/update handling should be performed in a database transaction
+    'transactions' => false,
+
     /*
     |--------------------------------------------------------------------------
     | Models
@@ -312,8 +315,9 @@ return [
 
             // Aliases for sort strategy classes
             'sort-aliases' => [
-                'null-last'  => SortStrategies\NullLast::class,
-                'translated' => SortStrategies\TranslatedAttribute::class,
+                Enums\SortStrategy::NULL_LAST       => SortStrategies\NullLast::class,
+                Enums\SortStrategy::NULL_LAST_EMPTY => SortStrategies\NullOrEmptyLast::class,
+                Enums\SortStrategy::TRANSLATED      => SortStrategies\TranslatedAttribute::class,
             ],
 
             // Aliases for action link strategy classes
@@ -352,6 +356,13 @@ return [
             // Aliases for field display strategy classes
             'aliases' => [
                 Enums\FormDisplayStrategy::TEXT             => 'DefaultStrategy',
+                Enums\FormDisplayStrategy::TEXT_EMAIL       => 'DefaultStrategy',
+                Enums\FormDisplayStrategy::PASSWORD         => 'DefaultStrategy',
+                Enums\FormDisplayStrategy::NUMERIC_DECIMAL  => 'DefaultStrategy',
+                Enums\FormDisplayStrategy::NUMERIC_INTEGER  => 'DefaultStrategy',
+                Enums\FormDisplayStrategy::NUMERIC_PRICE    => 'DefaultStrategy',
+                Enums\FormDisplayStrategy::NUMERIC_YEAR     => 'DefaultStrategy',
+
                 Enums\FormDisplayStrategy::BOOLEAN_CHECKBOX => 'BooleanCheckboxStrategy',
                 Enums\FormDisplayStrategy::BOOLEAN_DROPDOWN => 'BooleanDropdownStrategy',
                 Enums\FormDisplayStrategy::TEXTAREA         => 'TextAreaStrategy',
@@ -559,6 +570,25 @@ return [
             ]
         ],
 
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Help Texts
+    |--------------------------------------------------------------------------
+    |
+    | Settings for default rendering of help text in the CMS.
+    |
+    */
+
+    'help-text' => [
+
+        'form' => [
+
+            // Default way to show help texts defined for form fields
+            // One of: field, field_tooltip, label, label_tooltip
+            'default-type' => 'field',
+        ],
     ],
 
 ];
