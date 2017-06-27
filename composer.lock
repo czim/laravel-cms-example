@@ -296,12 +296,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-acl-module.git",
-                "reference": "035e199356b79b1f1a969267de057febb2c32161"
+                "reference": "32b602f60f6957af34b1bf5497b0ad9dbd217d1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-acl-module/zipball/035e199356b79b1f1a969267de057febb2c32161",
-                "reference": "035e199356b79b1f1a969267de057febb2c32161",
+                "url": "https://api.github.com/repos/czim/laravel-cms-acl-module/zipball/32b602f60f6957af34b1bf5497b0ad9dbd217d1a",
+                "reference": "32b602f60f6957af34b1bf5497b0ad9dbd217d1a",
                 "shasum": ""
             },
             "require": {
@@ -328,7 +328,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2017-05-29 12:55:54"
+            "time": "2017-06-24 15:54:20"
         },
         {
             "name": "czim/laravel-cms-auth",
@@ -385,12 +385,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-core.git",
-                "reference": "2bc02427509227ce7112aa6587653a5b10c9a926"
+                "reference": "8dae824802f573c9c22c3d78e9a3b30cd4b34202"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-core/zipball/2bc02427509227ce7112aa6587653a5b10c9a926",
-                "reference": "2bc02427509227ce7112aa6587653a5b10c9a926",
+                "url": "https://api.github.com/repos/czim/laravel-cms-core/zipball/8dae824802f573c9c22c3d78e9a3b30cd4b34202",
+                "reference": "8dae824802f573c9c22c3d78e9a3b30cd4b34202",
                 "shasum": ""
             },
             "require": {
@@ -429,7 +429,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2017-06-06 20:26:23"
+            "time": "2017-06-25 20:54:17"
         },
         {
             "name": "czim/laravel-cms-models",
@@ -437,12 +437,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-models.git",
-                "reference": "aa62650efea0e54e5489aabf4d97d71b7f98105d"
+                "reference": "12f29ca1d8e11ed5386c85e193259258f2ad5007"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-models/zipball/aa62650efea0e54e5489aabf4d97d71b7f98105d",
-                "reference": "aa62650efea0e54e5489aabf4d97d71b7f98105d",
+                "url": "https://api.github.com/repos/czim/laravel-cms-models/zipball/12f29ca1d8e11ed5386c85e193259258f2ad5007",
+                "reference": "12f29ca1d8e11ed5386c85e193259258f2ad5007",
                 "shasum": ""
             },
             "require": {
@@ -482,7 +482,7 @@
                 "cms",
                 "laravel"
             ],
-            "time": "2017-06-15 06:20:40"
+            "time": "2017-06-24 15:54:43"
         },
         {
             "name": "czim/laravel-cms-theme",
@@ -490,12 +490,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-theme.git",
-                "reference": "8eec6ebb2ddba0c0bd576b54022a95893798a666"
+                "reference": "e8cbbe65f161245640ee735d72e75250c1f5b833"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-theme/zipball/8eec6ebb2ddba0c0bd576b54022a95893798a666",
-                "reference": "8eec6ebb2ddba0c0bd576b54022a95893798a666",
+                "url": "https://api.github.com/repos/czim/laravel-cms-theme/zipball/e8cbbe65f161245640ee735d72e75250c1f5b833",
+                "reference": "e8cbbe65f161245640ee735d72e75250c1f5b833",
                 "shasum": ""
             },
             "require": {
@@ -523,7 +523,7 @@
                 "theme",
                 "view"
             ],
-            "time": "2017-06-06 20:29:47"
+            "time": "2017-06-19 19:38:44"
         },
         {
             "name": "czim/laravel-cms-upload-module",
@@ -531,16 +531,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/laravel-cms-upload-module.git",
-                "reference": "a3811a7675e1494f99383ecc3097594961d18efb"
+                "reference": "5fcbf273ca9377053c0c5494cd3e0973cce532a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/laravel-cms-upload-module/zipball/a3811a7675e1494f99383ecc3097594961d18efb",
-                "reference": "a3811a7675e1494f99383ecc3097594961d18efb",
+                "url": "https://api.github.com/repos/czim/laravel-cms-upload-module/zipball/5fcbf273ca9377053c0c5494cd3e0973cce532a9",
+                "reference": "5fcbf273ca9377053c0c5494cd3e0973cce532a9",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.9"
+                "php": ">=5.6.4"
             },
             "require-dev": {
                 "czim/laravel-cms-core": "~1.3",
@@ -566,7 +566,7 @@
                 "module",
                 "upload"
             ],
-            "time": "2017-05-29 16:43:03"
+            "time": "2017-06-24 19:16:34"
         },
         {
             "name": "czim/laravel-dataobject",
@@ -1995,16 +1995,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.22.1",
+            "version": "1.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "1e044bc4b34e91743943479f1be7a1d5eb93add0"
+                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/1e044bc4b34e91743943479f1be7a1d5eb93add0",
-                "reference": "1e044bc4b34e91743943479f1be7a1d5eb93add0",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
+                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
                 "shasum": ""
             },
             "require": {
@@ -2025,7 +2025,7 @@
                 "phpunit/phpunit-mock-objects": "2.3.0",
                 "ruflin/elastica": ">=0.90 <3.0",
                 "sentry/sentry": "^0.13",
-                "swiftmailer/swiftmailer": "~5.3"
+                "swiftmailer/swiftmailer": "^5.3|^6.0"
             },
             "suggest": {
                 "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
@@ -2069,7 +2069,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2017-03-13T07:08:03+00:00"
+            "time": "2017-06-19T01:22:40+00:00"
         },
         {
             "name": "mtdowling/cron-expression",
@@ -2556,16 +2556,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.8.6",
+            "version": "v0.8.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "7028d6d525fb183d50b249b7c07598e3d386b27d"
+                "reference": "fe65c30cbc55c71e61ba3a38b5a581149be31b8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/7028d6d525fb183d50b249b7c07598e3d386b27d",
-                "reference": "7028d6d525fb183d50b249b7c07598e3d386b27d",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/fe65c30cbc55c71e61ba3a38b5a581149be31b8e",
+                "reference": "fe65c30cbc55c71e61ba3a38b5a581149be31b8e",
                 "shasum": ""
             },
             "require": {
@@ -2625,7 +2625,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2017-06-04T10:34:20+00:00"
+            "time": "2017-06-24T06:16:19+00:00"
         },
         {
             "name": "ramsey/uuid",
@@ -4271,16 +4271,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.7.20",
+            "version": "5.7.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "3cb94a5f8c07a03c8b7527ed7468a2926203f58b"
+                "reference": "3b91adfb64264ddec5a2dee9851f354aa66327db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3cb94a5f8c07a03c8b7527ed7468a2926203f58b",
-                "reference": "3cb94a5f8c07a03c8b7527ed7468a2926203f58b",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3b91adfb64264ddec5a2dee9851f354aa66327db",
+                "reference": "3b91adfb64264ddec5a2dee9851f354aa66327db",
                 "shasum": ""
             },
             "require": {
@@ -4349,7 +4349,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-05-22T07:42:55+00:00"
+            "time": "2017-06-21T08:11:54+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",

@@ -26,6 +26,22 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Service Providers
+    |--------------------------------------------------------------------------
+    |
+    | For those loaded modules that have their own service providers, they
+    | may be added here. The CMS will automatically register them.
+    |
+    */
+
+    'providers' => [
+        Czim\CmsAclModule\Providers\CmsAclModuleServiceProvider::class,
+        Czim\CmsModels\Providers\CmsModelsServiceProvider::class,
+        Czim\CmsUploadModule\Providers\CmsUploadModuleServiceProvider::class,
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
     | Menu
     |--------------------------------------------------------------------------
     |
