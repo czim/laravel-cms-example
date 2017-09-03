@@ -19,6 +19,12 @@ Application packages used
 - [Stapler](https://github.com/CodeSleeve/laravel-stapler)
 
 
+## Laravel Versions
+
+The master branch has the latest version of Laravel.
+
+For examples of older Laravel versions, check out the branch specific for that version. 
+
 ## Installation
 
 Besides the normal procedure for getting a laravel installation running (`composer install`), follow these additional steps:
