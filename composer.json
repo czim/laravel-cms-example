@@ -5,15 +5,15 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": ">=5.6.4",
-        "laravel/framework": "5.4.*",
-        "czim/laravel-cms-core": "1.4.*",
+        "php": ">=7.0.0",
+        "laravel/framework": "5.5.*",
+        "czim/laravel-cms-core": "1.5.*",
         "czim/laravel-cms-auth": "dev-master",
-        "czim/laravel-cms-models": "dev-master",
+        "czim/laravel-cms-models": "1.5.*",
         "czim/laravel-cms-theme": "dev-master",
         "czim/laravel-cms-acl-module": "dev-master",
         "czim/laravel-cms-upload-module": "dev-master",
-        "dimsav/laravel-translatable": "^6.0",
+        "dimsav/laravel-translatable": "^8.0",
         "codesleeve/laravel-stapler": "^1.0",
         "czim/laravel-listify": "^1.0",
         "predis/predis": "^1.1",
@@ -23,7 +23,7 @@
     "require-dev": {
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
-        "phpunit/phpunit": "~5.7",
+        "phpunit/phpunit": "~6.0",
         "symfony/css-selector": "3.1.*",
         "symfony/dom-crawler": "3.1.*"
     },
@@ -53,5 +53,4 @@
     "config": {
         "sort-packages": true
     }
-
 }
