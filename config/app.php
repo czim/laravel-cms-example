@@ -170,6 +170,7 @@ return [
         Codesleeve\LaravelStapler\Providers\L5ServiceProvider::class,
         Conner\Tagging\Providers\TaggingServiceProvider::class,
         Czim\CmsCore\Providers\CmsCoreServiceProvider::class,
+        Laravel\Tinker\TinkerServiceProvider::class,
 
         /*
          * Application Service Providers...
