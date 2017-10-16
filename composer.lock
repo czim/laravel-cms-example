@@ -145,16 +145,16 @@
         },
         {
             "name": "czim/file-handling",
-            "version": "0.9.4",
+            "version": "0.9.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/czim/file-handling.git",
-                "reference": "4d4d60e931c080ec96ed6dc97bf7abdfffdbdedb"
+                "reference": "29e21cae76c5dfdead0cceb36ab6d2d86d7ef279"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czim/file-handling/zipball/4d4d60e931c080ec96ed6dc97bf7abdfffdbdedb",
-                "reference": "4d4d60e931c080ec96ed6dc97bf7abdfffdbdedb",
+                "url": "https://api.github.com/repos/czim/file-handling/zipball/29e21cae76c5dfdead0cceb36ab6d2d86d7ef279",
+                "reference": "29e21cae76c5dfdead0cceb36ab6d2d86d7ef279",
                 "shasum": ""
             },
             "require": {
@@ -191,7 +191,7 @@
                 "storage",
                 "uploads"
             ],
-            "time": "2017-08-20T07:33:20+00:00"
+            "time": "2017-10-16T20:42:09+00:00"
         },
         {
             "name": "czim/laravel-cms-acl-module",
