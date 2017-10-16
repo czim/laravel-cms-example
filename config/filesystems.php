@@ -54,6 +54,12 @@ return [
             'visibility' => 'public',
         ],
 
+        'paperclip' => [
+            'driver' => 'local',
+            'root' => public_path('system'),
+            'visibility' => 'public',
+        ],
+
         's3' => [
             'driver' => 's3',
             'key' => 'your-key',

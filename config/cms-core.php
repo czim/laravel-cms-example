@@ -377,7 +377,7 @@ return [
             League\OAuth2\Server\Exception\UnauthorizedClientException::class,
             League\OAuth2\Server\Exception\UnsupportedGrantTypeException::class,
             League\OAuth2\Server\Exception\UnsupportedResponseTypeException::class,
-            LucaDegasperi\OAuth2Server\Exceptions\NoActiveAccessTokenException::class,
+            Czim\OAuth2Server\Exceptions\NoActiveAccessTokenException::class,
         ],
     ],
 

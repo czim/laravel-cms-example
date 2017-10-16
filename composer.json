@@ -14,8 +14,8 @@
         "czim/laravel-cms-acl-module": "dev-master",
         "czim/laravel-cms-upload-module": "dev-master",
         "dimsav/laravel-translatable": "^8.0",
-        "codesleeve/laravel-stapler": "^1.0",
         "czim/laravel-listify": "^1.0",
+        "czim/laravel-paperclip": "^1.5",
         "predis/predis": "^1.1",
         "rtconner/laravel-tagging": "^2.2",
         "laravel/tinker": "^1.0"

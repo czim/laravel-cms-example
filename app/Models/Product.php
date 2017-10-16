@@ -2,20 +2,20 @@
 namespace App\Models;
 
 use App\Models\Scopes\ActiveScope;
-use Codesleeve\Stapler\ORM\EloquentTrait;
-use Codesleeve\Stapler\ORM\StaplerableInterface;
+use Czim\Paperclip\Contracts\AttachableInterface;
+use Czim\Paperclip\Model\PaperclipTrait;
 use Dimsav\Translatable\Translatable;
 use Illuminate\Database\Eloquent\Model;
 
-class Product extends Model implements StaplerableInterface
+class Product extends Model implements AttachableInterface
 {
     use Translatable,
-        EloquentTrait
+        PaperclipTrait
     {
         Translatable::getAttribute as translatableGetAttribute;
         Translatable::setAttribute as translatableSetAttribute;
-        EloquentTrait::getAttribute as staplerGetAttribute;
-        EloquentTrait::setAttribute as staplerSetAttribute;
+        PaperclipTrait::getAttribute as staplerGetAttribute;
+        PaperclipTrait::setAttribute as staplerSetAttribute;
     }
 
     protected $fillable = [
@@ -60,7 +60,6 @@ class Product extends Model implements StaplerableInterface
     {
         parent::boot();
 
-        static::bootStapler();
         static::addGlobalScope(new ActiveScope());
     }
 

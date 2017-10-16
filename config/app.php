@@ -167,8 +167,8 @@ return [
          * Package Service Providers...
          */
         Dimsav\Translatable\TranslatableServiceProvider::class,
-        Codesleeve\LaravelStapler\Providers\L5ServiceProvider::class,
         Conner\Tagging\Providers\TaggingServiceProvider::class,
+        Czim\Paperclip\Providers\PaperclipServiceProvider::class,
         Czim\CmsCore\Providers\CmsCoreServiceProvider::class,
         Laravel\Tinker\TinkerServiceProvider::class,
 
