@@ -48,8 +48,17 @@ class Product extends Model implements AttachableInterface
     {
         $this->hasAttachedFile('image', [
             'styles' => [
-                'medium' => '300x300',
-                'thumb'  => '100x100'
+                'original' => [
+                    'auto-orient' => [],
+                ],
+                'medium' => [
+                    'auto-orient' => [],
+                    'dimensions'  => '300x300',
+                ],
+                'thumb'  => [
+                    'auto-orient' => [],
+                    'dimensions'  => '100x100',
+                ],
             ]
         ]);
 
