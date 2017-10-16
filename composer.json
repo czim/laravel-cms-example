@@ -6,7 +6,6 @@
     "type": "project",
     "require": {
         "php": ">=7.0.0",
-        "codesleeve/laravel-stapler": "^1.0",
         "czim/laravel-cms-acl-module": "dev-master",
         "czim/laravel-cms-auth": "dev-master",
         "czim/laravel-cms-core": "1.5.*",
