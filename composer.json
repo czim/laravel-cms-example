@@ -1,6 +1,6 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
+    "name": "czim/laravel-cms-example",
+    "description": "Laravel CMS Example.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
