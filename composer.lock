@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a2ff85fec84874aaeb9b01031d9329dc",
+    "content-hash": "8116c1000b704b9deb9cfd1a791c1052",
     "packages": [
         {
             "name": "cartalyst/sentinel",
@@ -144,107 +144,54 @@
             "time": "2017-02-23T12:05:30+00:00"
         },
         {
-            "name": "codesleeve/laravel-stapler",
-            "version": "v1.0.08",
+            "name": "czim/file-handling",
+            "version": "0.9.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/CodeSleeve/laravel-stapler.git",
-                "reference": "3be43835c45cc2a47795b0a79789f5058e1aa8fb"
+                "url": "https://github.com/czim/file-handling.git",
+                "reference": "4d4d60e931c080ec96ed6dc97bf7abdfffdbdedb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CodeSleeve/laravel-stapler/zipball/3be43835c45cc2a47795b0a79789f5058e1aa8fb",
-                "reference": "3be43835c45cc2a47795b0a79789f5058e1aa8fb",
+                "url": "https://api.github.com/repos/czim/file-handling/zipball/4d4d60e931c080ec96ed6dc97bf7abdfffdbdedb",
+                "reference": "4d4d60e931c080ec96ed6dc97bf7abdfffdbdedb",
                 "shasum": ""
             },
             "require": {
-                "codesleeve/stapler": "1.2.*",
-                "laravel/framework": "4.*|5.*",
-                "php": ">=5.4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/migrations"
-                ],
-                "psr-4": {
-                    "Codesleeve\\LaravelStapler\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Travis Bennett",
-                    "email": "tandrewbennett@hotmail.com"
-                }
-            ],
-            "description": "Easy file upload management for the Laravel Framework.",
-            "keywords": [
-                "aws",
-                "file",
-                "laravel",
-                "paperclip",
-                "s3",
-                "stapler",
-                "upload"
-            ],
-            "time": "2017-02-04T22:31:51+00:00"
-        },
-        {
-            "name": "codesleeve/stapler",
-            "version": "v1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CodeSleeve/stapler.git",
-                "reference": "f15aa58d3dac213aefce27dd5885730d9bc31387"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CodeSleeve/stapler/zipball/f15aa58d3dac213aefce27dd5885730d9bc31387",
-                "reference": "f15aa58d3dac213aefce27dd5885730d9bc31387",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/inflector": "~1",
-                "imagine/imagine": "~0.6.2",
-                "php": ">=5.4",
-                "symfony/http-foundation": "~2.3|~3.0"
+                "imagine/imagine": "^0.6",
+                "myclabs/php-enum": "^1.4",
+                "php": ">=5.5.9",
+                "psr/container": "^1.0",
+                "symfony/http-foundation": "^3.1"
             },
             "require-dev": {
-                "aws/aws-sdk-php": "2.4.*@dev",
-                "illuminate/config": "4.*|5.*",
-                "illuminate/database": "4.*|5.*",
-                "mockery/mockery": "0.8.0"
+                "illuminate/contracts": "^5.3",
+                "mikey179/vfsstream": "^1.6",
+                "mockery/mockery": "0.9.*",
+                "php-ffmpeg/php-ffmpeg": "^0.9.5",
+                "phpunit/phpunit": "~5.7",
+                "satooshi/php-coveralls": "^1.0"
+            },
+            "suggest": {
+                "league/flysystem-aws-s3-v3": "Required for AWS S3 file storage",
+                "php-ffmpeg/php-ffmpeg": "Required for video conversion and thumbnail generation"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Codesleeve\\Stapler\\": "src/"
+                    "Czim\\FileHandling\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Travis Bennett",
-                    "email": "tandrewbennett@hotmail.com"
-                }
-            ],
-            "description": "Elegant and simple ORM-based file upload package for php.",
+            "description": "File Handling Helper",
+            "homepage": "https://github.com/czim",
             "keywords": [
-                "aws",
                 "file",
-                "orm",
-                "paperclip",
                 "s3",
-                "upload"
+                "storage",
+                "uploads"
             ],
-            "time": "2016-01-30T21:39:33+00:00"
+            "time": "2017-08-20T07:33:20+00:00"
         },
         {
             "name": "czim/laravel-cms-acl-module",
@@ -682,6 +629,47 @@
                 "position"
             ],
             "time": "2016-10-14T21:04:35+00:00"
+        },
+        {
+            "name": "czim/laravel-paperclip",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/czim/laravel-paperclip.git",
+                "reference": "515a66b4cdb2a3f7ab3b39094d695840400523c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/czim/laravel-paperclip/zipball/515a66b4cdb2a3f7ab3b39094d695840400523c1",
+                "reference": "515a66b4cdb2a3f7ab3b39094d695840400523c1",
+                "shasum": ""
+            },
+            "require": {
+                "czim/file-handling": "^0.9",
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "orchestra/testbench": "3.5.*",
+                "phpunit/phpunit": "~6.0",
+                "satooshi/php-coveralls": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Czim\\Paperclip\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Laravel Eloquent file attachment solution",
+            "homepage": "https://github.com/czim",
+            "keywords": [
+                "attachment",
+                "file",
+                "laravel",
+                "upload"
+            ],
+            "time": "2017-09-02T20:55:27+00:00"
         },
         {
             "name": "czim/laravel-repository",
@@ -5367,9 +5355,9 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "czim/laravel-cms-acl-module": 20,
         "czim/laravel-cms-auth": 20,
         "czim/laravel-cms-theme": 20,
-        "czim/laravel-cms-acl-module": 20,
         "czim/laravel-cms-upload-module": 20
     },
     "prefer-stable": false,
