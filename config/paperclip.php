@@ -42,7 +42,7 @@ return [
 
         // Per disk, the base URL where attachments are stored at
         'base-urls' => [
-            'paperclip' => config('app.url') . '/paperclip',
+            'paperclip' => config('app.url') . '/system',
         ],
     ],
 
