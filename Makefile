@@ -8,7 +8,7 @@ docker:
 
 env:
 	${INFO} "Preparing environment..."
-	cp .env.example .env && \
+	cp .env.docker .env && \
 		docker-compose exec app bash -c 'php artisan key:generate; (exit $?)'
 
 migrate:
