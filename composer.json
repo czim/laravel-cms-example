@@ -13,7 +13,7 @@
         "czim/laravel-cms-theme": "dev-master",
         "czim/laravel-cms-upload-module": "dev-master",
         "czim/laravel-listify": "^1.0",
-        "czim/laravel-paperclip": "^1.5",
+        "czim/laravel-paperclip": "1.5.*",
         "dimsav/laravel-translatable": "^8.0",
         "laravel/framework": "5.5.*",
         "laravel/tinker": "^1.0",

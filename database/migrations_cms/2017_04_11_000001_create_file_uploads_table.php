@@ -15,10 +15,10 @@ class CreateFileUploadsTable extends CmsMigration
     {
         Schema::create($this->prefixCmsTable('file_uploads'), function (Blueprint $table) {
             $table->increments('id');
-            $table->string('reference', 255)->nullable()->index();
-            $table->string('name', 255)->nullable();
+            $table->string('reference', 191)->nullable()->index();
+            $table->string('name', 191)->nullable();
             $table->text('path')->nullable();
-            $table->string('uploader', 255)->nullable();
+            $table->string('uploader', 191)->nullable();
             $table->integer('file_size')->unsigned()->nullable();
             $table->nullableTimestamps();
         });
