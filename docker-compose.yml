@@ -3,7 +3,7 @@ version: "2.1"
 services:
 
   app:
-    image: creativitykills/nginx-php-server:latest
+    build: ./docker
     depends_on:
       mysql:
         condition: service_healthy
@@ -17,7 +17,7 @@ services:
       REDIS_HOST: redis
       DB_HOST: mysql
     volumes:
-      - .:/var/www
+      - .:/var/www/html
     ports:
       - 8000:80
     links:
